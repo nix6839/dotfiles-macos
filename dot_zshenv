@@ -1,0 +1,51 @@
+#--< XDG user directories
+# Refer this: https://github.com/adrg/xdg/blob/31e6a328d142d3b8ed43fda69c4f2b55e77d8e79/README.md#xdg-base-directory
+export XDG_CONFIG_HOME="$HOME/Library/Application Support"
+export XDG_CACHE_HOME="$HOME/Library/Caches"
+export XDG_DATA_HOME="$HOME/Library/Application Support"
+export XDG_STATE_HOME="$HOME/Library/Application Support"
+# XDG user directories -->
+
+#--< Homebrew
+export HOMEBREW_PREFIX="/opt/homebrew"
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar"
+export HOMEBREW_REPOSITORY="/opt/homebrew"
+export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:"
+export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}"
+# Homebrew -->
+
+#--< macOS tar: https://unix.stackexchange.com/a/282142
+export COPYFILE_DISABLE=1
+# macOS tar -->
+
+export EDITOR="nvim"
+
+#--< zsh
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export HISTFILE="$XDG_DATA_HOME/zsh/history"
+export ZPLUG_HOME="$XDG_DATA_HOME/zplug"
+# zsh -->
+
+#--< Node
+export NVM_DIR="$XDG_DATA_HOME/nvm"
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+export NODE_REPL_HISTORY="$XDG_DATA_HOME/node/history"
+
+#--< pnpm
+export PNPM_HOME="$XDG_DATA_HOME/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm -->
+# Node -->
+
+#--< WakaTime
+export WAKATIME_HOME="$XDG_CONFIG_HOME/wakatime"
+# WakaTime -->
+
+#--< less
+export LESSKEY="$XDG_CONFIG_HOME/less/key"
+export LESSHISTFILE="$XDG_DATA_HOME/less/history"
+# less -->
+
+#--< gpg
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+# gpg -->

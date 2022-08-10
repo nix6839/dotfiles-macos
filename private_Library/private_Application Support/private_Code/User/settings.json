@@ -1,0 +1,156 @@
+{
+  "editor.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.letterSpacing": 0.4,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderFinalNewline": true,
+  "editor.renderControlCharacters": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.guides.bracketPairs": "active",
+  "editor.rulers": [80],
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
+  "terminal.external.osxExec": "alacritty",
+  "terminal.integrated.commandsToSkipShell": [
+    "-workbench.action.quickOpen",
+    "-workbench.action.terminal.focusFind"
+  ],
+  "terminal.integrated.shellIntegration.enabled": false,
+  "files.maxMemoryForLargeFilesMB": 8192,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.menuBarVisibility": "hidden",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsserver.maxTsServerMemory": 8192,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "svelte.enable-ts-plugin": true,
+  "markdown.preview.fontFamily": "Pretendard",
+  "markdownlint.config": {
+    "MD024": false
+  },
+  "todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.regex.regexCaseSensitive": false,
+  "todo-tree.highlights.defaultHighlight": {
+    "background": "#ad7d02",
+    "foreground": "#000",
+    "iconColour": "#0f0",
+    "icon": "check",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "FIXME": {
+      "background": "#8f0000",
+      "iconColour": "#f00"
+    }
+  },
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm",
+  "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+  "gitlens.defaultTimeFormat": "HH:mm",
+  "path-intellisense.showHiddenFiles": true,
+  "python.formatting.provider": "autopep8",
+  "python.linting.pylintEnabled": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.venvFolders": [".local/share/python/virtualenvs"],
+  "rpc.appName": "Visual Studio Code",
+  "rpc.removeDetails": true,
+  "rpc.lowerDetailsViewing": "Viewing {LANG}",
+  "rpc.lowerDetailsEditing": "Editing {LANG}",
+  "rpc.lowerDetailsDebugging": "Debugging: {LANG}",
+  "rpc.removeLowerDetailsIdling": false,
+  "rpc.prioritizeLanguagesOverExtensions": true,
+  "rpc.buttonEnabled": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "typescript",
+    "typescriptreact"
+  ],
+  "vscode-neovim.neovimExecutablePaths.darwin": "nvim",
+  "sql-formatter.dialect": "mariadb",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[c]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[rust]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "lea21st.vscode-sql-formatter"
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[dockercompose]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
+}

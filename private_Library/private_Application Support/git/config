@@ -1,0 +1,22 @@
+[user]
+	name = Han Yeong-woo
+	email = nix6839@washnix.com
+	signingKey = nix6839@washnix.com
+[commit]
+	gpgSign = true
+[init]
+	defaultBranch = main
+[core]
+	quotePath = false
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[add.interactive]
+	useBuiltin = false # required for git 2.37.0
+[merge]
+	conflictStyle = diff3
+[diff]
+	colorMoved = default
+[delta]
+	navigate = true	# use n and N to move between diff sections
+	line-numbers = true

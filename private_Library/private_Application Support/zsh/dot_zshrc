@@ -1,0 +1,20 @@
+# If this line is in `.zshenv`, commands of brew can't override
+# default commands of macOS
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}"
+
+export GPG_TTY="$TTY"
+
+. "$ZDOTDIR/zplug.zsh"
+. "$ZDOTDIR/p10k.zsh"
+. "$ZDOTDIR/aliases.zsh"
+
+. "$NVM_DIR/nvm.sh"
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/Library/Application\ Support/zsh/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+bindkey -e
