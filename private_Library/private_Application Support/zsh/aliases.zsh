@@ -19,5 +19,5 @@ alias laR='ls -AR'
 alias llaR='ls -lAR'
 
 alias update-all='brew update && brew upgrade && zplug update &&
-  tldr --update && ncu --packageFile $PNPM_HOME/global/5/package.json &&
-  ncu -g'
+  tldr --update && ncu --packageFile $PNPM_HOME/global/5/package.json -u &&
+  pnpm i -g && ncu -g'
