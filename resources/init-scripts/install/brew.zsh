@@ -25,7 +25,7 @@ brew install $FONT_PACKAGES $CLI_PACKAGES
 declare -a CASK_PACKAGES
 CASK_PACKAGES=(
     'gureumkim' 'microsoft-edge' 'alacritty' 'discord' 'bitwarden'
-    'visual-studio-code' 'notion' 'slack' 'spotify'
+    'visual-studio-code' 'notion' 'slack' 'spotify' 'telegram-desktop'
     # Does not support m1 native
     # 'remix-ide'
 )
