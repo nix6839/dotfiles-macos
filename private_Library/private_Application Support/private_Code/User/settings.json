@@ -1,6 +1,6 @@
 {
   "editor.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.lineHeight": 1.5,
   "editor.letterSpacing": 0.4,
   "editor.renderWhitespace": "boundary",
@@ -19,7 +19,7 @@
   "editor.inlayHints.enabled": "offUnlessPressed",
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 14,
   "terminal.external.osxExec": "alacritty",
   "terminal.integrated.commandsToSkipShell": [
     "-workbench.action.quickOpen",
