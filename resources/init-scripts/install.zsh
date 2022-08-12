@@ -7,6 +7,7 @@ INSTALL_SCRIPTS=(
     'zsh.zsh'
     'nvim.zsh'
     'node.zsh'
+    'rust.zsh'
     'code.zsh'
 )
 
