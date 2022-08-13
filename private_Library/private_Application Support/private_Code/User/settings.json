@@ -100,6 +100,7 @@
     "typescriptreact"
   ],
   "vscode-neovim.neovimExecutablePaths.darwin": "nvim",
+  "shellcheck.executablePath": "shellcheck",
   "sql-formatter.dialect": "mariadb",
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
