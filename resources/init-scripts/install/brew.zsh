@@ -16,7 +16,7 @@ FONT_PACKAGES=(
 )
 CLI_PACKAGES=(
     'git' 'neovim' 'chezmoi' 'lsd' 'bat' 'tldr' 'git-delta' 'gnupg'
-    'pinentry-mac' 'shellcheck'
+    'pinentry-mac' 'shellcheck' 'go'
 )
 
 brew install $FONT_PACKAGES $CLI_PACKAGES
