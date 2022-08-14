@@ -8,6 +8,7 @@ INSTALL_SCRIPTS=(
     'nvim.zsh'
     'node.zsh'
     'rust.zsh'
+    'golang.zsh'
     'code.zsh'
 )
 

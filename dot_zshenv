@@ -45,6 +45,7 @@ export PATH="$CARGO_HOME/bin:$PATH"
 
 #--< Golang
 export GOPATH="$XDG_DATA_HOME/golang"
+export PATH="$GOPATH/bin:$PATH"
 # Golang -->
 
 #--< WakaTime
