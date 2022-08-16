@@ -99,6 +99,9 @@
     "typescript",
     "typescriptreact"
   ],
+  "gopls": {
+    "ui.semanticTokens": true
+  },
   "vscode-neovim.neovimExecutablePaths.darwin": "nvim",
   "shellcheck.executablePath": "shellcheck",
   "sql-formatter.dialect": "mariadb",
