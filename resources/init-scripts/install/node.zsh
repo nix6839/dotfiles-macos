@@ -9,7 +9,6 @@ NODE_PACKAGES=(
     'sort-package-json'
 )
 
-mkdir "$NVM_DIR" && curl -o- "$NVM_SCRIPT_URL" |
-    bash && . "$NVM_DIR/nvm.sh" && nvm install --lts --latest-npm &&
-    corepack enable && corepack prepare pnpm@7.9.0 --activate &&
-    pnpm i -g $NODE_PACKAGES
+curl -o- "$NVM_SCRIPT_URL" | bash && . "$NVM_DIR/nvm.sh" &&
+    nvm install --lts --latest-npm && corepack enable &&
+    corepack prepare pnpm@7.9.0 --activate && pnpm i -g $NODE_PACKAGES
