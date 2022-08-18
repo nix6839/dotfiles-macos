@@ -28,7 +28,7 @@ CASK_PACKAGES=(
     'visual-studio-code' 'notion' 'slack' 'spotify' 'telegram-desktop'
     'dropbox'
     # Does not support m1 native
-    # 'remix-ide'
+    'remix-ide' 'tutanota'
 )
 
 brew install --cask $CASK_PACKAGES
