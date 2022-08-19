@@ -5,6 +5,7 @@ zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug 'robbyrussell/oh-my-zsh', use:'lib/*.zsh'
 zplug 'plugins/gitfast', from:'oh-my-zsh'
 
+zplug 'zsh-users/zsh-completions', defer:2
 zplug 'zdharma-continuum/fast-syntax-highlighting', defer:2
 zplug 'zsh-users/zsh-autosuggestions', defer:2
 
