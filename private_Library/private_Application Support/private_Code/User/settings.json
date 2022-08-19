@@ -27,6 +27,7 @@
     "-workbench.action.terminal.focusFind"
   ],
   "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
   "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
