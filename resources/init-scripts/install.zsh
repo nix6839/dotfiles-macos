@@ -9,6 +9,7 @@ INSTALL_SCRIPTS=(
     'node.zsh'
     'rust.zsh'
     'golang.zsh'
+    'python.zsh'
     'code.zsh'
 )
 
