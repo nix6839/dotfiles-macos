@@ -104,6 +104,8 @@
   "gopls": {
     "ui.semanticTokens": true
   },
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "workspace",
   "vscode-neovim.neovimExecutablePaths.darwin": "nvim",
   "shellcheck.executablePath": "shellcheck",
   "sql-formatter.dialect": "mariadb",
