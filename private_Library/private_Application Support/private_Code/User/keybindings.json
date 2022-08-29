@@ -1,6 +1,12 @@
 [
-  // Comment Block
-  // FIXME: https://github.com/vscode-neovim/vscode-neovim/issues/813
+  // Comment Block: https://github.com/vscode-neovim/vscode-neovim/issues/813
+  {
+    "key": "cmd+/",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != insert",
+    "args": "<C-/>"
+  },
+  // FIXME: Not working now
   {
     "key": "ctrl+shift+/",
     "command": "editor.action.blockComment",
@@ -18,6 +24,7 @@
     "when": "terminalFocus"
   },
 
+  // Keyboard quick action up and down
   {
     "key": "ctrl+n",
     "when": "CodeActionMenuVisible",
