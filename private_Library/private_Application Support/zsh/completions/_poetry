@@ -82,7 +82,7 @@ _poetry_89f695bef5f03e70_complete()
             ;;
 
             (export)
-            opts+=("--default:Only include the main dependencies. \(Deprecated\)" "--dev:Include development dependencies. \(Deprecated\)" "--extras:Extra sets of dependencies to include." "--format:Format to export to. Currently, only requirements.txt is supported." "--only:The only dependency groups to include." "--output:The name of the output file." "--with:The optional dependency groups to include." "--with-credentials:Include credentials for extra indices." "--without:The dependency groups to ignore." "--without-hashes:Exclude hashes from the exported file." "--without-urls:Exclude source repository urls from the exported file.")
+            opts+=("--dev:Include development dependencies. \(Deprecated\)" "--extras:Extra sets of dependencies to include." "--format:Format to export to. Currently, only requirements.txt is supported." "--only:The only dependency groups to include." "--output:The name of the output file." "--with:The optional dependency groups to include." "--with-credentials:Include credentials for extra indices." "--without:The dependency groups to ignore." "--without-hashes:Exclude hashes from the exported file." "--without-urls:Exclude source repository urls from the exported file.")
             ;;
 
             (help)
@@ -94,7 +94,7 @@ _poetry_89f695bef5f03e70_complete()
             ;;
 
             (install)
-            opts+=("--all-extras:Install all extra dependencies." "--default:Only include the main dependencies. \(Deprecated\)" "--dry-run:Output the operations but do not execute anything \(implicitly enables --verbose\)." "--extras:Extra sets of dependencies to install." "--no-dev:Do not install the development dependencies. \(Deprecated\)" "--no-root:Do not install the root package \(the current project\)." "--only:The only dependency groups to include." "--only-root:Exclude all dependencies." "--remove-untracked:Removes packages not present in the lock file. \(Deprecated\)" "--sync:Synchronize the environment with the locked packages and the specified groups." "--with:The optional dependency groups to include." "--without:The dependency groups to ignore.")
+            opts+=("--all-extras:Install all extra dependencies." "--dry-run:Output the operations but do not execute anything \(implicitly enables --verbose\)." "--extras:Extra sets of dependencies to install." "--no-dev:Do not install the development dependencies. \(Deprecated\)" "--no-root:Do not install the root package \(the current project\)." "--only:The only dependency groups to include." "--only-root:Exclude all dependencies." "--remove-untracked:Removes packages not present in the lock file. \(Deprecated\)" "--sync:Synchronize the environment with the locked packages and the specified groups." "--with:The optional dependency groups to include." "--without:The dependency groups to ignore.")
             ;;
 
             (list)
@@ -158,7 +158,7 @@ _poetry_89f695bef5f03e70_complete()
             ;;
 
             (show)
-            opts+=("--all:Show all packages \(even those not compatible with current system\)." "--default:Only include the main dependencies. \(Deprecated\)" "--latest:Show the latest version." "--no-dev:Do not list the development dependencies. \(Deprecated\)" "--only:The only dependency groups to include." "--outdated:Show the latest version but only for packages that are outdated." "--tree:List the dependencies as a tree." "--why:When showing the full list, or a --tree for a single package, also display why it\'s included." "--with:The optional dependency groups to include." "--without:The dependency groups to ignore.")
+            opts+=("--all:Show all packages \(even those not compatible with current system\)." "--latest:Show the latest version." "--no-dev:Do not list the development dependencies. \(Deprecated\)" "--only:The only dependency groups to include." "--outdated:Show the latest version but only for packages that are outdated." "--tree:List the dependencies as a tree." "--why:When showing the full list, or a --tree for a single package, also display why it\'s included." "--with:The optional dependency groups to include." "--without:The dependency groups to ignore.")
             ;;
 
             (source add)
@@ -174,7 +174,7 @@ _poetry_89f695bef5f03e70_complete()
             ;;
 
             (update)
-            opts+=("--default:Only include the main dependencies. \(Deprecated\)" "--dry-run:Output the operations but do not execute anything \(implicitly enables --verbose\)." "--lock:Do not perform operations \(only update the lockfile\)." "--no-dev:Do not update the development dependencies. \(Deprecated\)" "--only:The only dependency groups to include." "--with:The optional dependency groups to include." "--without:The dependency groups to ignore.")
+            opts+=("--dry-run:Output the operations but do not execute anything \(implicitly enables --verbose\)." "--lock:Do not perform operations \(only update the lockfile\)." "--no-dev:Do not update the development dependencies. \(Deprecated\)" "--only:The only dependency groups to include." "--with:The optional dependency groups to include." "--without:The dependency groups to ignore.")
             ;;
 
             (version)
