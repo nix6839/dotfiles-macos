@@ -17,8 +17,3 @@ alias lR='ls -R'
 alias llR='ls -lR'
 alias laR='ls -AR'
 alias llaR='ls -lAR'
-
-alias update-all='brew update && brew upgrade && mas upgrade && zplug update &&
-  tldr --update && nvim +PlugUpgrade +PlugInstall +qall &&
-  ncu --packageFile $PNPM_HOME/global/5/package.json -u && pnpm i -g &&
-  ncu -g'
