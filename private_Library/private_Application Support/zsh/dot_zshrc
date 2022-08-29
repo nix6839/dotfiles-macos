@@ -18,3 +18,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 bindkey -e
+
+update-all() {
+  brew update && brew upgrade && mas upgrade && zplug update &&
+    tldr --update && nvim +PlugUpgrade +PlugInstall +qall &&
+    ncu --packageFile "$PNPM_HOME/global/5/package.json" -u && pnpm i -g &&
+    ncu -g
+}
