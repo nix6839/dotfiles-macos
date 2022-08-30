@@ -22,10 +22,6 @@
   "terminal.integrated.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
   "terminal.integrated.fontSize": 14,
   "terminal.external.osxExec": "alacritty",
-  "terminal.integrated.commandsToSkipShell": [
-    "-workbench.action.quickOpen",
-    "-workbench.action.terminal.focusFind"
-  ],
   "terminal.integrated.shellIntegration.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "files.maxMemoryForLargeFilesMB": 8192,
@@ -43,7 +39,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
-  "window.menuBarVisibility": "hidden",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.maxTsServerMemory": 8192,
