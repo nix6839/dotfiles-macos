@@ -127,6 +127,9 @@
     "editor.insertSpaces": false,
     "editor.defaultFormatter": "golang.go"
   },
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
   "[python]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-python.python"
