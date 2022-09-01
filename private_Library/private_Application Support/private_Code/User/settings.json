@@ -17,7 +17,6 @@
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.inlayHints.enabled": "offUnlessPressed",
-  "editor.experimental.useCustomCodeActionMenu": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
   "terminal.integrated.fontSize": 14,
