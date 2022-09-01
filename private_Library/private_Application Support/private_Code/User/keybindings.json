@@ -27,12 +27,12 @@
   // Keyboard quick action up and down
   {
     "key": "ctrl+n",
-    "when": "CodeActionMenuVisible",
-    "command": "focusNextCodeAction"
+    "command": "focusNextCodeAction",
+    "when": "CodeActionMenuVisible"
   },
   {
     "key": "ctrl+p",
-    "when": "CodeActionMenuVisible",
-    "command": "focusPreviousCodeAction"
+    "command": "focusPreviousCodeAction",
+    "when": "CodeActionMenuVisible"
   }
 ]
