@@ -2,8 +2,8 @@
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
-zplug 'robbyrussell/oh-my-zsh', use:'lib/*.zsh'
-zplug 'plugins/gitfast', from:'oh-my-zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/*.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'plugins/gitfast'
 
 zplug 'zsh-users/zsh-completions', defer:2
 zplug 'zdharma-continuum/fast-syntax-highlighting', defer:2
