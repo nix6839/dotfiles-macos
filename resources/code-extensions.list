@@ -25,6 +25,7 @@ mechatroner.rainbow-csv
 meganrogge.template-string-converter
 mikestead.dotenv
 mkaufman.HTMLHint
+moalamri.inline-fold
 ms-azuretools.vscode-docker
 ms-python.python
 ms-python.vscode-pylance
@@ -45,6 +46,7 @@ tamasfe.even-better-toml
 timonwong.shellcheck
 Tobermory.es6-string-html
 usernamehw.errorlens
+VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
 WakaTime.vscode-wakatime
 XadillaX.viml
