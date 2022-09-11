@@ -11,4 +11,4 @@ NODE_PACKAGES=(
 
 curl -o- "$NVM_SCRIPT_URL" | bash && . "$NVM_DIR/nvm.sh" &&
     nvm install --lts --latest-npm && npm i -g corepack && corepack enable &&
-    corepack prepare pnpm@7.9.0 --activate && pnpm i -g $NODE_PACKAGES
+    corepack prepare pnpm@7.11.0 --activate && pnpm i -g $NODE_PACKAGES
