@@ -7,6 +7,7 @@ export GPG_TTY="$TTY"
 . "$ZDOTDIR/zplug.zsh"
 . "$ZDOTDIR/p10k.zsh"
 . "$ZDOTDIR/aliases.zsh"
+. "$ZDOTDIR/pnpm.zsh"
 
 . "$NVM_DIR/nvm.sh"
 
