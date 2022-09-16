@@ -19,6 +19,7 @@ GraphQL.vscode-graphql-syntax
 Gruntfuggly.todo-tree
 jock.svg
 JuanBlanco.solidity
+kisstkondoros.vscode-gutter-preview
 lea21st.vscode-sql-formatter
 LeonardSSH.vscord
 mechatroner.rainbow-csv
@@ -26,6 +27,7 @@ meganrogge.template-string-converter
 mikestead.dotenv
 moalamri.inline-fold
 ms-azuretools.vscode-docker
+ms-playwright.playwright
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
