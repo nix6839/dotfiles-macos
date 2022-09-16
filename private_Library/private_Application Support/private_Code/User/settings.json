@@ -18,6 +18,7 @@
   "editor.minimap.enabled": false,
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.stickyScroll.enabled": true,
+  "editor.suggest.matchOnWordStartOnly": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
   "terminal.integrated.fontSize": 14,
@@ -55,6 +56,8 @@
   "markdownlint.config": {
     "MD024": false
   },
+  "markdown.experimental.updateLinksOnFileMove.enabled": "always",
+  "markdown.experimental.validate.enabled": true,
   "todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.regex.regexCaseSensitive": false,
   "todo-tree.highlights.defaultHighlight": {
