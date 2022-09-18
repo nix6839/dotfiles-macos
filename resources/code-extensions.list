@@ -39,6 +39,7 @@ oderwat.indent-rainbow
 PKief.material-icon-theme
 ritwickdey.LiveServer
 rust-lang.rust-analyzer
+sandcastle.vscode-open
 serayuzgur.crates
 styled-components.vscode-styled-components
 stylelint.vscode-stylelint
@@ -49,6 +50,7 @@ Tobermory.es6-string-html
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 WakaTime.vscode-wakatime
+wix.vscode-import-cost
 XadillaX.viml
 yzhang.markdown-all-in-one
 ZixuanChen.vitest-explorer
