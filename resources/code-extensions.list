@@ -1,4 +1,5 @@
 alefragnani.project-manager
+alexkrechik.cucumberautocomplete
 asvetliakov.vscode-neovim
 ChakrounAnas.turbo-console-log
 christian-kohler.path-intellisense
@@ -7,6 +8,7 @@ clinyong.vscode-css-modules
 codezombiech.gitignore
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
+dotenv.dotenv-vscode
 eamodio.gitlens
 ecmel.vscode-html-css
 EditorConfig.EditorConfig
@@ -24,7 +26,6 @@ lea21st.vscode-sql-formatter
 LeonardSSH.vscord
 mechatroner.rainbow-csv
 meganrogge.template-string-converter
-mikestead.dotenv
 moalamri.inline-fold
 ms-azuretools.vscode-docker
 ms-playwright.playwright
@@ -43,6 +44,7 @@ sandcastle.vscode-open
 serayuzgur.crates
 styled-components.vscode-styled-components
 stylelint.vscode-stylelint
+sumneko.lua
 svelte.svelte-vscode
 tamasfe.even-better-toml
 timonwong.shellcheck
