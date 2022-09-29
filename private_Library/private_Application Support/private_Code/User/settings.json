@@ -19,6 +19,7 @@
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.stickyScroll.enabled": true,
   "editor.suggest.matchOnWordStartOnly": false,
+  "editor.lineNumbers": "relative",
   "explorer.compactFolders": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
