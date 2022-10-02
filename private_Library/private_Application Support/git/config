@@ -4,6 +4,8 @@
 	signingKey = nix6839@washnix.com
 [commit]
 	gpgSign = true
+[tag]
+	gpgSign = true
 [init]
 	defaultBranch = main
 [core]
