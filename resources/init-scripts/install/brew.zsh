@@ -15,7 +15,7 @@ FONT_PACKAGES=(
     'font-pretendard'
 )
 CLI_PACKAGES=(
-    'git' 'neovim' 'chezmoi' 'lsd' 'bat' 'tldr' 'git-delta' 'gnupg'
+    'git' 'neovim' 'chezmoi' 'lsd' 'bat' 'tealdeer' 'git-delta' 'gnupg'
     'pinentry-mac' 'shellcheck' 'go' 'golangci-lint' 'mas' 'python@3.10'
 )
 
