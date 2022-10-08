@@ -26,3 +26,13 @@ update-all() {
     ncu --packageFile "$PNPM_HOME/global/5/package.json" -u && pnpm i -g &&
     ncu -g
 }
+
+rm-network-configs() {
+  (
+    cd /Library/Preferences/SystemConfiguration &&
+      sudo rm -rf com.apple.airport.preferences.plist \
+                  com.apple.wifi.message-tracer.plist \
+                  NetworkInterfaces.plist \
+                  preferences.plist \
+                  com.apple.network.eapolclient.configuration.plist)
+}
