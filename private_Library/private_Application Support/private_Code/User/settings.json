@@ -60,6 +60,24 @@
   },
   "markdown.validate.enabled": true,
   "markdown.experimental.updateLinksOnFileMove.enabled": "always",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "jsonColorToken.languages": ["json", "jsonc", "typescript"],
+  "cssrem.languages": [
+    "html",
+    "vue",
+    "css",
+    "postcss",
+    "less",
+    "scss",
+    "sass",
+    "stylus",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.regex.regexCaseSensitive": false,
   "todo-tree.highlights.defaultHighlight": {
@@ -183,4 +201,6 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   }
+  // Experimental settings
+  // Dynamic settings
 }
