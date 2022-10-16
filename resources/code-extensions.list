@@ -28,6 +28,7 @@ mechatroner.rainbow-csv
 meganrogge.template-string-converter
 moalamri.inline-fold
 ms-azuretools.vscode-docker
+ms-edgedevtools.vscode-edge-devtools
 ms-playwright.playwright
 ms-python.python
 ms-python.vscode-pylance
