@@ -61,7 +61,8 @@
   "markdown.validate.enabled": true,
   "markdown.experimental.updateLinksOnFileMove.enabled": "always",
   "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
+    "asvetliakov.vscode-neovim": 1,
+    "wix.vscode-import-cost": 1
   },
   "jsonColorToken.languages": ["json", "jsonc", "typescript"],
   "cssrem.languages": [
@@ -104,9 +105,9 @@
   "python.venvFolders": [".local/share/python/virtualenvs"],
   "rpc.appName": "Visual Studio Code",
   "rpc.removeDetails": true,
-  "rpc.lowerDetailsViewing": "Viewing {LANG}",
-  "rpc.lowerDetailsEditing": "Editing {LANG}",
-  "rpc.lowerDetailsDebugging": "Debugging: {LANG}",
+  "rpc.lowerDetailsViewing": "Viewing {LANG} / {file_size}",
+  "rpc.lowerDetailsEditing": "Editing {LANG} / {file_size}",
+  "rpc.lowerDetailsDebugging": "Debugging: {LANG} / {file_size}",
   "rpc.removeLowerDetailsIdling": false,
   "rpc.prioritizeLanguagesOverExtensions": true,
   "rpc.buttonEnabled": true,
