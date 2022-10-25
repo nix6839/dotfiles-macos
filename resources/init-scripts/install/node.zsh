@@ -1,6 +1,6 @@
 #!/usr/bin/env /bin/zsh
 
-NVM_SCRIPT_URL='https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh'
+NVM_SCRIPT_URL='https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh'
 
 declare -a NODE_PACKAGES
 NODE_PACKAGES=(
@@ -11,4 +11,4 @@ NODE_PACKAGES=(
 
 curl -o- "$NVM_SCRIPT_URL" | bash && . "$NVM_DIR/nvm.sh" &&
     nvm install --lts --latest-npm && npm i -g corepack && corepack enable &&
-    corepack prepare pnpm@7.13.3 --activate && pnpm i -g $NODE_PACKAGES
+    corepack prepare pnpm@7.14.0 --activate && pnpm i -g $NODE_PACKAGES
