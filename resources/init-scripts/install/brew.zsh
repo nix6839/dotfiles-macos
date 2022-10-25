@@ -26,9 +26,15 @@ declare -a CASK_PACKAGES
 CASK_PACKAGES=(
     'gureumkim' 'microsoft-edge' 'alacritty' 'discord' 'bitwarden'
     'visual-studio-code' 'notion' 'slack' 'spotify' 'telegram-desktop'
-    'dropbox' 'remix-ide'
+    'dropbox' 'remix-ide' 'firefox' 'figma'
     # Does not support m1 native
     'tutanota'
 )
 
 brew install --cask $CASK_PACKAGES
+
+CASK_NO_QUARANTINE_PACKAGES=(
+    'chromium'
+)
+
+brew install --cask --no-quarantine $CASK_NO_QUARANTINE_PACKAGES
