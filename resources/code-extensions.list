@@ -19,6 +19,7 @@ golang.go
 GraphQL.vscode-graphql
 GraphQL.vscode-graphql-syntax
 Gruntfuggly.todo-tree
+HTMLHint.vscode-htmlhint
 jock.svg
 JuanBlanco.solidity
 kisstkondoros.vscode-gutter-preview
@@ -30,6 +31,7 @@ moalamri.inline-fold
 ms-azuretools.vscode-docker
 ms-edgedevtools.vscode-edge-devtools
 ms-playwright.playwright
+ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
