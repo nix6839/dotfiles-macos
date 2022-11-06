@@ -59,7 +59,8 @@
     "MD024": false
   },
   "markdown.validate.enabled": true,
-  "markdown.experimental.updateLinksOnFileMove.enabled": "always",
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "markdown.occurrencesHighlight.enabled": true,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1,
     "wix.vscode-import-cost": 1
