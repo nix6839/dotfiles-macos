@@ -8,6 +8,3 @@ init-author-url="https://github.com/nix6839"
 init-license="MIT"
 init-version="0.0.0"
 # init-module=${XDG_CONFIG_HOME}/npm/asdf.js
-
-# pnpm
-strict-peer-dependencies=false
