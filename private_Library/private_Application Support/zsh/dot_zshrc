@@ -36,3 +36,10 @@ rm-network-configs() {
                   preferences.plist \
                   com.apple.network.eapolclient.configuration.plist)
 }
+
+# Company
+set-company-git-config() {
+  git config --local user.name 'Han Yeong-woo'
+  git config --local user.email 'yeongwoo@ironflag.io'
+  git config --local user.signingKey 'yeongwoo@ironflag.io'
+}
