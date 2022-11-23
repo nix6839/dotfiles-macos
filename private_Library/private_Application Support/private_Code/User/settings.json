@@ -46,7 +46,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.maxTsServerMemory": 8192,
-  "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.enumMemberValues.enabled": true,
@@ -80,6 +79,7 @@
     "typescript",
     "typescriptreact"
   ],
+  "vscode-edge-devtools.webhint": false,
   "todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.regex.regexCaseSensitive": false,
   "todo-tree.highlights.defaultHighlight": {
@@ -137,6 +137,11 @@
   "vscode-neovim.neovimExecutablePaths.darwin": "nvim",
   "shellcheck.executablePath": "shellcheck",
   "sql-formatter.dialect": "mariadb",
+  "material-icon-theme.files.associations": {
+    "*.css.ts": "../../icons/vanilla-extract",
+    "vitest.config.ts": "../../icons/vitest",
+    "*.css.tsx": "../../icons/vanilla-extract"
+  },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
