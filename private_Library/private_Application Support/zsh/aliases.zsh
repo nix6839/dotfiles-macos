@@ -17,3 +17,6 @@ alias lR='ls -R'
 alias llR='ls -lR'
 alias laR='ls -AR'
 alias llaR='ls -lAR'
+
+alias dropbox-ignore='xattr -w com.dropbox.ignored 1'
+alias dropbox-no-ignore='xattr -d com.dropbox.ignored'
