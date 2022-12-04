@@ -1,6 +1,6 @@
 {
   "editor.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.lineHeight": 1.5,
   "editor.letterSpacing": 0.4,
   "editor.renderWhitespace": "boundary",
@@ -55,7 +55,8 @@
   "svelte.enable-ts-plugin": true,
   "markdown.preview.fontFamily": "Pretendard",
   "markdownlint.config": {
-    "MD024": false
+    "MD022": { "lines_below": 0 },
+    "MD032": false
   },
   "markdown.validate.enabled": true,
   "markdown.updateLinksOnFileMove.enabled": "always",
@@ -111,7 +112,7 @@
   "vscord.status.state.text.debugging": "Debugging: {LANG} / {file_size}",
   "vscord.status.details.idle.enabled": false,
   "vscord.behavoiur.prioritizeLanguagesOverExtensions": true,
-  "vscord.status.button.enabled": true,
+  "vscord.status.buttons.button1.git.active.enabled": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "stylelint.validate": [
