@@ -19,11 +19,13 @@ GraphQL.vscode-graphql
 GraphQL.vscode-graphql-syntax
 Gruntfuggly.todo-tree
 HTMLHint.vscode-htmlhint
+JannisX11.batch-rename-extension
 jock.svg
 JuanBlanco.solidity
 kisstkondoros.vscode-gutter-preview
 lea21st.vscode-sql-formatter
 LeonardSSH.vscord
+marp-team.marp-vscode
 mechatroner.rainbow-csv
 meganrogge.template-string-converter
 moalamri.inline-fold
@@ -39,10 +41,10 @@ ms-toolsai.jupyter-renderers
 ms-toolsai.vscode-jupyter-cell-tags
 ms-toolsai.vscode-jupyter-slideshow
 ms-vscode.cpptools
+ms-vscode.live-server
 ms-vsliveshare.vsliveshare
 oderwat.indent-rainbow
 PKief.material-icon-theme
-ritwickdey.LiveServer
 rust-lang.rust-analyzer
 sandcastle.vscode-open
 serayuzgur.crates
@@ -59,6 +61,7 @@ usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 WakaTime.vscode-wakatime
 WallabyJs.console-ninja
+WallabyJs.quokka-vscode
 wix.vscode-import-cost
 XadillaX.viml
 yechunan.json-color-token
