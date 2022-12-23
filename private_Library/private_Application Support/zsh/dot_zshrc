@@ -3,6 +3,7 @@
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}"
 
 export GPG_TTY="$TTY"
+export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
 
 . "$ZDOTDIR/zplug.zsh"
 . "$ZDOTDIR/p10k.zsh"

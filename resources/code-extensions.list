@@ -1,6 +1,7 @@
 alefragnani.project-manager
 alexkrechik.cucumberautocomplete
 asvetliakov.vscode-neovim
+bradlc.vscode-tailwindcss
 ChakrounAnas.turbo-console-log
 christian-kohler.path-intellisense
 cipchk.cssrem
@@ -14,6 +15,7 @@ EditorConfig.EditorConfig
 esbenp.prettier-vscode
 formulahendry.code-runner
 foxundermoon.shell-format
+GitHub.vscode-pull-request-github
 golang.go
 GraphQL.vscode-graphql
 GraphQL.vscode-graphql-syntax

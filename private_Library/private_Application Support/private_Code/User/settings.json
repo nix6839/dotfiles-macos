@@ -131,7 +131,6 @@
   "sql-formatter.dialect": "mariadb",
   "material-icon-theme.files.associations": {
     "*.css.ts": "../../icons/vanilla-extract",
-    "vitest.config.ts": "../../icons/vitest",
     "*.css.tsx": "../../icons/vanilla-extract"
   },
   "[svelte]": {
