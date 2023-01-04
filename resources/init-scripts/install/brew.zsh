@@ -15,8 +15,8 @@ FONT_PACKAGES=(
     'font-pretendard'
 )
 CLI_PACKAGES=(
-    'git' 'neovim' 'chezmoi' 'lsd' 'bat' 'fd' 'tealdeer' 'git-delta' 'gnupg'
-    'pinentry-mac' 'shellcheck' 'go' 'golangci-lint' 'mas' 'python@3.10'
+    'git' 'neovim' 'chezmoi' 'lsd' 'bat' 'fd' 'bottom' 'tealdeer' 'git-delta'
+    'gnupg' 'pinentry-mac' 'shellcheck' 'go' 'golangci-lint' 'mas' 'python@3.10'
     'mkcert'
 )
 
@@ -25,7 +25,7 @@ brew install $FONT_PACKAGES $CLI_PACKAGES
 # Cask
 declare -a CASK_PACKAGES
 CASK_PACKAGES=(
-    'gureumkim' 'microsoft-edge' 'alacritty' 'discord' 'bitwarden'
+    'gureumkim' 'ngrok' 'microsoft-edge' 'alacritty' 'discord' 'bitwarden'
     'visual-studio-code' 'notion' 'slack' 'spotify' 'telegram-desktop'
     'dropbox' 'remix-ide' 'firefox' 'figma'
     # Does not support m1 native
