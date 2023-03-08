@@ -22,10 +22,18 @@ fi
 bindkey -e
 
 update-all() {
-  brew update && brew upgrade && mas upgrade && zplug update &&
-    tldr --update && nvim +PlugUpgrade +PlugInstall +qall &&
-    ncu --packageFile "$PNPM_HOME/global/5/package.json" -u && pnpm i -g &&
-    ncu -g
+  brew update
+  brew upgrade
+  mas upgrade
+
+  zplug update
+  tldr --update
+  nvim +PlugUpgrade +PlugInstall +qall
+
+  corepack prepare pnpm@latest --activate
+  ncu --packageFile "$PNPM_HOME/global/5/package.json" -u
+  pnpm i -g
+  ncu -g
 }
 
 rm-network-configs() {
@@ -36,11 +44,4 @@ rm-network-configs() {
                   NetworkInterfaces.plist \
                   preferences.plist \
                   com.apple.network.eapolclient.configuration.plist)
-}
-
-# Company
-set-company-git-config() {
-  git config --local user.name 'Han Yeong-woo'
-  git config --local user.email 'yeongwoo@ironflag.io'
-  git config --local user.signingKey 'yeongwoo@ironflag.io'
 }
