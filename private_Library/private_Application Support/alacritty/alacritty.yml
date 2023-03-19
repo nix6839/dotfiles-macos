@@ -9,11 +9,10 @@ font:
 
 hints:
   enabled:
-    # TODO: Replace to hyperlinks in 0.11.0
-    # Refer: https://github.com/alacritty/alacritty/blob/89f4bdb770fad303a122172c60b5280e5061aeaf/alacritty.yml#L510
     - regex:
         "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)\
         [^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+      hyperlinks: true
       command: open
       post_processing: true
       mouse:
