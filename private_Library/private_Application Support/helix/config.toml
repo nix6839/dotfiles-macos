@@ -1,0 +1,24 @@
+theme = "dark_plus"
+
+[editor]
+shell = ["zsh", "-c"]
+line-number = "relative"
+idle-timeout = 0
+rulers = [80]
+
+[editor.statusline]
+mode = { normal = "NORMAL", insert = "INSERT", select = "SELECT" }
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
+[editor.whitespace]
+render = "all"
+
+[editor.indent-guides]
+render = true
+
+[keys.insert]
+"C-space" = "completion"
