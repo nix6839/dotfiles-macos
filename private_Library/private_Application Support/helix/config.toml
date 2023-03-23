@@ -4,6 +4,7 @@ theme = "dark_plus"
 shell = ["zsh", "-c"]
 line-number = "relative"
 idle-timeout = 0
+completion-trigger-len = 1
 rulers = [80]
 
 [editor.statusline]
@@ -20,5 +21,8 @@ render = "all"
 [editor.indent-guides]
 render = true
 
+[keys.normal]
+"C-." = "code_action"
+
 [keys.insert]
-"C-space" = "completion"
+C-space = "completion"
