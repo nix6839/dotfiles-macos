@@ -112,6 +112,7 @@
   "vscord.status.buttons.button1.git.active.enabled": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
+  "prettier.documentSelectors": ["**/*.astro"],
   "stylelint.validate": [
     "css",
     "less",
