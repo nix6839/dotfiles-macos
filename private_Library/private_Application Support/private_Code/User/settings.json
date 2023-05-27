@@ -4,7 +4,7 @@
   "editor.lineHeight": 1.5,
   "editor.letterSpacing": 0.4,
   "editor.renderWhitespace": "boundary",
-  "editor.renderFinalNewline": true,
+  "editor.renderFinalNewline": "dimmed",
   "editor.renderControlCharacters": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
@@ -210,15 +210,19 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   // Experimental settings
+  "window.commandCenter": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "*.tsx": "${capture}.stories.tsx",
+    "*.tsx": "${capture}.stories.tsx, ${capture}.test.tsx, ${capture}.test.ts, $[capture}.test.tsx",
+    "*.ts": "${capture}.test.ts",
     "tsconfig.json": "tsconfig.*.json",
     "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
   },
   "explorer.autoRevealExclude": {
     "**/node_modules": true,
     "**/bower_components": true
-  }
+  },
+  "code-runner.clearPreviousOutput": true,
+  "diffEditor.diffAlgorithm": "advanced"
   // Dynamic settings
 }

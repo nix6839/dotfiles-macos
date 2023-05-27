@@ -9,6 +9,7 @@ cipchk.cssrem
 codezombiech.gitignore
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
+donjayamanne.githistory
 dotenv.dotenv-vscode
 eamodio.gitlens
 ecmel.vscode-html-css
@@ -16,6 +17,7 @@ EditorConfig.EditorConfig
 esbenp.prettier-vscode
 formulahendry.code-runner
 foxundermoon.shell-format
+github.vscode-github-actions
 GitHub.vscode-pull-request-github
 golang.go
 GraphQL.vscode-graphql
@@ -50,6 +52,7 @@ ms-vscode.live-server
 ms-vsliveshare.vsliveshare
 nicoespeon.abracadabra
 oderwat.indent-rainbow
+pranaygp.vscode-css-peek
 PKief.material-icon-theme
 rust-lang.rust-analyzer
 sandcastle.vscode-open
