@@ -98,7 +98,6 @@
   "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
   "gitlens.defaultTimeFormat": "HH:mm",
   "path-intellisense.showHiddenFiles": true,
-  "python.formatting.provider": "autopep8",
   "python.linting.pylintEnabled": true,
   "python.analysis.typeCheckingMode": "basic",
   "python.venvFolders": [".local/share/python/virtualenvs"],
@@ -167,7 +166,7 @@
   },
   "[python]": {
     "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.autopep8"
   },
   "[sql]": {
     "editor.defaultFormatter": "lea21st.vscode-sql-formatter"
