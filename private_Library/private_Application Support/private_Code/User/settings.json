@@ -212,7 +212,7 @@
   "window.commandCenter": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "*.tsx": "${capture}.stories.tsx, ${capture}.test.tsx, ${capture}.test.ts, $[capture}.test.tsx",
+    "*.tsx": "${capture}.stories.tsx, ${capture}.test.tsx, ${capture}.test.ts",
     "*.ts": "${capture}.test.ts",
     "tsconfig.json": "tsconfig.*.json",
     "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
@@ -222,6 +222,9 @@
     "**/bower_components": true
   },
   "code-runner.clearPreviousOutput": true,
-  "diffEditor.diffAlgorithm": "advanced"
+  "diffEditor.experimental.useVersion2": true,
+  "diffEditor.experimental.collapseUnchangedRegions": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.defaultColorDecorators": true
   // Dynamic settings
 }

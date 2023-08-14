@@ -33,6 +33,7 @@ update-all() {
   corepack prepare pnpm@latest --activate
   ncu --packageFile "$PNPM_HOME/global/5/package.json" -u
   pnpm i -g
+  pnpm up -g
   ncu -g
 }
 
