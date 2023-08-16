@@ -41,6 +41,7 @@ ms-edgedevtools.vscode-edge-devtools
 ms-playwright.playwright
 ms-python.autopep8
 ms-python.isort
+ms-python.pylint
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode.cpptools
@@ -64,6 +65,7 @@ Tobermory.es6-string-html
 Tyriar.sort-lines
 unifiedjs.vscode-mdx
 usernamehw.errorlens
+valentjn.vscode-ltex
 VisualStudioExptTeam.vscodeintellicode
 WakaTime.vscode-wakatime
 WallabyJs.console-ninja
