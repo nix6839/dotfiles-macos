@@ -55,10 +55,6 @@ export PYTHONHISTORY="$XDG_DATA_HOME/python/history"
 export PATH="$HOME/Library/Python/3.10/bin:$PATH"
 # Python -->
 
-#--< WakaTime
-export WAKATIME_HOME="$XDG_CONFIG_HOME/wakatime"
-# WakaTime -->
-
 #--< less
 export LESSKEY="$XDG_CONFIG_HOME/less/key"
 export LESSHISTFILE="$XDG_DATA_HOME/less/history"
