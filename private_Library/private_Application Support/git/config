@@ -1,7 +1,7 @@
 [user]
 	name = Han Yeong-woo
-	email = nix6839@washnix.com
-	signingKey = nix6839@washnix.com
+	email = han@yeongwoo.dev
+	signingKey = han@yeongwoo.dev
 [commit]
 	gpgSign = true
 [tag]
