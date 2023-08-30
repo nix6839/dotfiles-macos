@@ -30,7 +30,7 @@ update-all() {
   tldr --update
   nvim +PlugUpgrade +PlugInstall +qall
 
-  corepack prepare pnpm@latest --activate
+  corepack install -g pnpm@latest
   ncu --packageFile "$PNPM_HOME/global/5/package.json" -u
   pnpm i -g
   pnpm up -g
