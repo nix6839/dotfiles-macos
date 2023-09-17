@@ -29,7 +29,6 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.showExitAlert": false,
-  "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -45,10 +44,19 @@
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
   "svelte.enable-ts-plugin": true,
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "class:list"
+  ],
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cx\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["/\\*\\s?tw\\s?\\*/\\s?([^;]*);", "'([^']*)'"]
+    ["/\\*\\s?tw\\s?\\*/\\s?([^;]*);", "'([^']*)'"],
+    ["classList\\.add\\(([^)]*)\\)", "'([^']*)'"],
+    ["classList\\.replace\\(([^)]*)\\)", "'([^']*)'"],
+    ["classList\\.remove\\(([^)]*)\\)", "'([^']*)'"]
   ],
   "markdown.preview.fontFamily": "Pretendard",
   "markdownlint.config": {
@@ -77,7 +85,6 @@
     "typescript",
     "typescriptreact"
   ],
-  "vscode-edge-devtools.webhint": false,
   "todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.regex.regexCaseSensitive": false,
   "todo-tree.highlights.defaultHighlight": {
@@ -93,6 +100,7 @@
       "iconColour": "#f00"
     }
   },
+  "gitlens.graph.layout": "editor",
   "gitlens.defaultDateStyle": "absolute",
   "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm",
   "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
@@ -101,10 +109,11 @@
   "python.analysis.typeCheckingMode": "basic",
   "python.venvFolders": [".local/share/python/virtualenvs"],
   "vscord.app.name": "Code",
+  "vscord.app.privacyMode.enable": true,
   "vscord.status.details.enabled": false,
-  "vscord.status.state.text.viewing": "Viewing {LANG} / {file_size}",
-  "vscord.status.state.text.editing": "Editing {LANG} / {file_size}",
-  "vscord.status.state.text.debugging": "Debugging: {LANG} / {file_size}",
+  "vscord.status.state.text.viewing": "Viewing {Lang}:{current_line}:{current_column} / {file_size}",
+  "vscord.status.state.text.editing": "Editing {Lang}:{current_line}:{current_column} / {file_size}",
+  "vscord.status.state.text.debugging": "Debugging: {Lang}:{current_line}:{current_column} / {file_size}",
   "vscord.status.details.idle.enabled": false,
   "vscord.behavoiur.prioritizeLanguagesOverExtensions": true,
   // "vscord.status.buttons.button1.active.enabled": true,
@@ -119,6 +128,13 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "prettier.documentSelectors": ["**/*.astro"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "astro"
+  ],
   "stylelint.validate": [
     "css",
     "less",
@@ -234,7 +250,6 @@
   },
   "code-runner.clearPreviousOutput": true,
   "diffEditor.experimental.useVersion2": true,
-  "diffEditor.experimental.collapseUnchangedRegions": true,
   "extensions.ignoreRecommendations": true,
   "editor.defaultColorDecorators": true
   // Dynamic settings

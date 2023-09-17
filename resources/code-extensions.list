@@ -1,6 +1,6 @@
 alefragnani.project-manager
-astro-build.astro-vscode
 alexkrechik.cucumberautocomplete
+astro-build.astro-vscode
 asvetliakov.vscode-neovim
 bradlc.vscode-tailwindcss
 ChakrounAnas.turbo-console-log
@@ -9,7 +9,6 @@ cipchk.cssrem
 codezombiech.gitignore
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
-donjayamanne.githistory
 dotenv.dotenv-vscode
 eamodio.gitlens
 ecmel.vscode-html-css
@@ -24,8 +23,8 @@ GraphQL.vscode-graphql
 GraphQL.vscode-graphql-syntax
 Gruntfuggly.todo-tree
 HTMLHint.vscode-htmlhint
+JakeBecker.elixir-ls
 JannisX11.batch-rename-extension
-jakebecker.elixir-ls
 jock.svg
 JuanBlanco.solidity
 kisstkondoros.vscode-codemetrics
@@ -75,3 +74,4 @@ XadillaX.viml
 yechunan.json-color-token
 yzhang.markdown-all-in-one
 ZixuanChen.vitest-explorer
+zjcompt.es6-string-javascript
