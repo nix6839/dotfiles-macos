@@ -17,7 +17,7 @@ FONT_PACKAGES=(
 CLI_PACKAGES=(
     'git' 'neovim' 'chezmoi' 'lsd' 'bat' 'fd' 'bottom' 'tealdeer' 'git-delta'
     'gnupg' 'pinentry-mac' 'shellcheck' 'go' 'golangci-lint' 'mas' 'python@3.10'
-    'mkcert'
+    'mkcert' 'act'
 )
 
 brew install $FONT_PACKAGES $CLI_PACKAGES
