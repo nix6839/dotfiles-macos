@@ -14,6 +14,7 @@ eamodio.gitlens
 ecmel.vscode-html-css
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
+figma.figma-vscode-extension
 formulahendry.code-runner
 foxundermoon.shell-format
 github.vscode-github-actions
@@ -49,6 +50,7 @@ ms-vsliveshare.vsliveshare
 nicoespeon.abracadabra
 nrwl.angular-console
 oderwat.indent-rainbow
+onlyutkarsh.vsix-viewer
 PKief.material-icon-theme
 pucelle.vscode-css-navigation
 rust-lang.rust-analyzer
@@ -72,6 +74,7 @@ WallabyJs.quokka-vscode
 wix.vscode-import-cost
 XadillaX.viml
 yechunan.json-color-token
+yoavbls.pretty-ts-errors
 yzhang.markdown-all-in-one
 ZixuanChen.vitest-explorer
 zjcompt.es6-string-javascript

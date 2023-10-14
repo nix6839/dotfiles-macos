@@ -198,6 +198,9 @@
   "[feature]": {
     "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
   },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
   "[dockercompose]": {
     "editor.quickSuggestions": {
       "other": true,
@@ -226,6 +229,7 @@
   "gitlens.telemetry.enabled": false,
   "code-runner.enableAppInsights": false,
   "redhat.telemetry.enabled": false,
+  "vsixViewer.enableTelemetry": false,
   // Experimental settings
   "window.commandCenter": true,
   "explorer.fileNesting.enabled": true,
@@ -240,11 +244,14 @@
     "**/bower_components": true
   },
   "code-runner.clearPreviousOutput": true,
-  "diffEditor.experimental.useVersion2": true,
   "extensions.ignoreRecommendations": true,
   "editor.defaultColorDecorators": true,
   "inlineFold.disableInDiffEditor": true,
-  "typescript.preferences.importModuleSpecifierEnding": "js"
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "editor.codeActionWidget.includeNearbyQuickfixes": true,
+  "scm.experimental.showSyncView": true,
+  "debug.toolBarLocation": "commandCenter"
 
   // Template settings
   // "vscord.status.buttons.button1.active.enabled": true,
