@@ -1,6 +1,6 @@
 #!/usr/bin/env /bin/zsh
 
-NVM_SCRIPT_URL='https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh'
+NVM_SCRIPT_URL='https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh'
 
 declare -a NODE_PACKAGES
 NODE_PACKAGES=(
