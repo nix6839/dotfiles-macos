@@ -30,6 +30,11 @@ update-all() {
   tldr --update
   nvim +PlugUpgrade +PlugInstall +qall
 
+  poetry self update
+
+  rustup update
+  cargo install-update -a
+
   corepack install -g pnpm@latest
   ncu --packageFile "$PNPM_HOME/global/5/package.json" -u
   pnpm i -g
