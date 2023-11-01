@@ -17,6 +17,7 @@ esbenp.prettier-vscode
 figma.figma-vscode-extension
 formulahendry.code-runner
 foxundermoon.shell-format
+ghmcadams.lintlens
 github.vscode-github-actions
 GitHub.vscode-pull-request-github
 golang.go
@@ -51,6 +52,7 @@ nicoespeon.abracadabra
 nrwl.angular-console
 oderwat.indent-rainbow
 onlyutkarsh.vsix-viewer
+phoenisx.cssvar
 PKief.material-icon-theme
 pucelle.vscode-css-navigation
 rust-lang.rust-analyzer
@@ -62,13 +64,16 @@ stylelint.vscode-stylelint
 sumneko.lua
 svelte.svelte-vscode
 tamasfe.even-better-toml
+tauri-apps.tauri-vscode
 timonwong.shellcheck
 Tobermory.es6-string-html
 Tyriar.sort-lines
 unifiedjs.vscode-mdx
 usernamehw.errorlens
+vadimcn.vscode-lldb
 valentjn.vscode-ltex
 VisualStudioExptTeam.vscodeintellicode
+vunguyentuan.vscode-postcss
 WallabyJs.console-ninja
 WallabyJs.quokka-vscode
 wix.vscode-import-cost
