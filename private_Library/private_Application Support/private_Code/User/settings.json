@@ -249,7 +249,8 @@
   "inlineFold.disableInDiffEditor": true,
   "typescript.preferences.importModuleSpecifierEnding": "js",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
-  "editor.codeActionWidget.includeNearbyQuickfixes": true,
+  "editor.codeActionWidget.includeNearbyQuickFixes": true,
+  "editor.multiDocumentOccurrencesHighlight": true,
   "scm.experimental.showSyncView": true,
   "debug.toolBarLocation": "commandCenter"
 
