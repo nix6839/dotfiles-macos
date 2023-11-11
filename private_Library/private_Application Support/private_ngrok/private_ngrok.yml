@@ -1,0 +1,19 @@
+version: '2'
+authtoken: ''
+region: jp
+tunnels:
+  3000:
+    proto: http
+    hostname: ''
+    addr: 127.0.0.1:3000
+    oauth:
+      provider: 'github'
+      allow_emails: [han@yeongwoo.dev]
+
+  4321:
+    proto: http
+    hostname: ''
+    addr: 127.0.0.1:4321
+    oauth:
+      provider: 'github'
+      allow_emails: [han@yeongwoo.dev]
