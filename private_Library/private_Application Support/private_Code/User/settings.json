@@ -252,7 +252,11 @@
   "editor.codeActionWidget.includeNearbyQuickFixes": true,
   "editor.multiDocumentOccurrencesHighlight": true,
   "scm.experimental.showSyncView": true,
-  "debug.toolBarLocation": "commandCenter"
+  "debug.toolBarLocation": "commandCenter",
+  "[mdx]": {
+    "editor.defaultFormatter": "unifiedjs.vscode-mdx"
+  },
+  "auto-close-tag.activationOnLanguage": ["mdx"]
 
   // Template settings
   // "vscord.status.buttons.button1.active.enabled": true,
