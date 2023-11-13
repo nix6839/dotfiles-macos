@@ -2,7 +2,15 @@
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
-zplug 'ohmyzsh/ohmyzsh', use:'lib/*.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/clipboard.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/completion.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/functions.zsh'
+zplug 'belak/zsh-utils', use:'history/history.plugin.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/key-bindings.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/misc.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/termsupport.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/theme-and-appearance.zsh'
+zplug 'ohmyzsh/ohmyzsh', use:'lib/vcs_info.zsh'
 zplug 'ohmyzsh/ohmyzsh', use:'plugins/gitfast'
 
 zplug 'zsh-users/zsh-completions', defer:2

@@ -23,8 +23,8 @@ export EDITOR="nvim"
 #--< zsh
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export HISTFILE="$XDG_DATA_HOME/zsh/history"
-export ZPLUG_HOME="$XDG_DATA_HOME/zplug"
 export FPATH="$ZDOTDIR/completions:$FPATH"
+export ZPLUG_HOME="$XDG_DATA_HOME/zplug"
 # zsh -->
 
 #--< Node

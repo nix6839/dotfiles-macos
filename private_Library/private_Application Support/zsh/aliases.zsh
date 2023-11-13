@@ -1,5 +1,10 @@
 alias sudo='sudo '
 
+alias -g ...='../..'
+alias -g ....='../../..'
+alias -g .....='../../../..'
+alias -g ......='../../../../..'
+
 alias ls='lsd'
 alias cat='bat'
 alias vi='nvim'
