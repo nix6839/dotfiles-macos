@@ -22,7 +22,7 @@ brew "shellcheck"
 brew "go"
 brew "golangci-lint"
 brew "mas"
-brew "python@3.10"
+brew "python@3.12"
 brew "mkcert"
 brew "act"
 
