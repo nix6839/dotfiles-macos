@@ -5,7 +5,6 @@ declare -a INSTALL_SCRIPTS
 INSTALL_SCRIPTS=(
     'brew.zsh'
     'mas.zsh'
-    'zsh.zsh'
     'nvim.zsh'
     'node.zsh'
     'rust.zsh'
