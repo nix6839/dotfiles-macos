@@ -4,13 +4,11 @@ INSTALL_SCRIPT_PATH="$(dirname "$0")/install"
 declare -a INSTALL_SCRIPTS
 INSTALL_SCRIPTS=(
     'brew.zsh'
-    'mas.zsh'
     'nvim.zsh'
     'node.zsh'
     'rust.zsh'
     'golang.zsh'
     'python.zsh'
-    'code.zsh'
 )
 
 for INSTALL_SCRIPT in $INSTALL_SCRIPTS; do
