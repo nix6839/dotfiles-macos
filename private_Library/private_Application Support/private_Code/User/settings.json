@@ -256,7 +256,7 @@
   "[mdx]": {
     "editor.defaultFormatter": "unifiedjs.vscode-mdx"
   },
-  "auto-close-tag.activationOnLanguage": ["mdx"]
+  "auto-close-tag.activationOnLanguage": ["mdx"],
 
   // Template settings
   // "vscord.status.buttons.button1.active.enabled": true,
@@ -279,4 +279,5 @@
   // "vscord.status.buttons.button2.inactive.url": "https://github.com/nix6839/",
 
   // Dynamic settings
+  "terminal.integrated.env.osx": {}
 }
