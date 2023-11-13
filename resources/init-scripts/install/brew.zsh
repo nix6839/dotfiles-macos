@@ -25,9 +25,9 @@ brew install $FONT_PACKAGES $CLI_PACKAGES
 # Cask
 declare -a CASK_PACKAGES
 CASK_PACKAGES=(
-    'gureumkim' 'ngrok' 'microsoft-edge' 'alacritty' 'discord' 'bitwarden'
-    'visual-studio-code' 'notion' 'slack' 'spotify' 'telegram-desktop'
-    'dropbox' 'remix-ide' 'firefox' 'figma' 'docker'
+    'gureumkim' 'ngrok' 'arc' 'alacritty' 'discord' 'bitwarden'
+    'visual-studio-code' 'notion' 'spotify' 'telegram-desktop' 'dropbox'
+    'microsoft-edge' 'firefox' 'figma' 'docker'
     # Does not support m1 native
     'tutanota'
 )
