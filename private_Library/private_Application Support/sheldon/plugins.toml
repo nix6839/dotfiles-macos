@@ -16,7 +16,6 @@ shell = 'zsh'
 github = 'ohmyzsh/ohmyzsh'
 use = [
   'lib/clipboard.zsh',
-  'lib/completion.zsh',
   'lib/functions.zsh',
   'lib/key-bindings.zsh',
   'lib/misc.zsh',
@@ -28,17 +27,19 @@ use = [
 
 [plugins.zsh-utils]
 github = 'belak/zsh-utils'
-use = ['history/history.plugin.zsh']
+use = ['completion/completion.plugin.zsh', 'history/history.plugin.zsh']
+[plugins.zsh-utils.hooks]
+post = 'compstyle ohmyzsh'
 
-[plugins.completion]
+[plugins.zsh-completions]
 github = 'zsh-users/zsh-completions'
 
-[plugins.syntax-highlighting]
+[plugins.fast-syntax-highlighting]
 github = 'zdharma-continuum/fast-syntax-highlighting'
 
-[plugins.auto-suggestions]
-github = 'zsh-users/zsh-autosuggestions'
+[plugins.zsh-autosuggestions]
+github = "zsh-users/zsh-autosuggestions"
+use = ["{{ name }}.zsh"]
 
-[plugins.theme]
+[plugins.powerlevel10k]
 github = 'romkatv/powerlevel10k'
-use = ['powerlevel10k.zsh-theme']
