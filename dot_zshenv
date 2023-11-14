@@ -51,6 +51,8 @@ export PATH="$GOPATH/bin:$PATH"
 #--< Python
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/startup.py"
 export PYTHONHISTORY="$XDG_DATA_HOME/python/history"
+export POETRY_HOME="$XDG_DATA_HOME/pypoetry"
+export PATH="$POETRY_HOME/bin:$PATH"
 # Python -->
 
 #--< less
