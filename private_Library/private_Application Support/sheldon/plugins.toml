@@ -29,7 +29,7 @@ use = [
 github = 'belak/zsh-utils'
 use = ['completion/completion.plugin.zsh', 'history/history.plugin.zsh']
 [plugins.zsh-utils.hooks]
-post = 'compstyle ohmyzsh'
+post = 'compstyle prezto'
 
 [plugins.zsh-completions]
 github = 'zsh-users/zsh-completions'
