@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schema.linearmouse.app/0.9.5",
+  "schemes": [
+    {
+      "scrolling": {
+        "acceleration": 1,
+        "reverse": true,
+        "speed": 0,
+        "distance": 3
+      }
+    }
+  ]
+}
