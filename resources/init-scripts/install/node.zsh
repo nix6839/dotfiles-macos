@@ -1,7 +1,5 @@
 #!/usr/bin/env /bin/zsh
 
-NVM_SCRIPT_URL='https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh'
-
 declare -a NODE_PACKAGES
 NODE_PACKAGES=(
     'create-next-app' 'create-astro' 'create-vite' 'create-svelte'
@@ -9,6 +7,6 @@ NODE_PACKAGES=(
     'typescript' 'ts-node' 'npm-check-updates' 'sort-package-json'
 )
 
-curl -o- "$NVM_SCRIPT_URL" | bash && . "$NVM_DIR/nvm.sh" &&
-    nvm install 18 --latest-npm && npm i -g corepack && corepack enable &&
+eval "$(fnm env --use-on-cd)" && fnm install 18 --corepack-enabled &&
+    fnm default 18 && npm i -g npm corepack &&
     corepack install -g pnpm@latest && pnpm i -g $NODE_PACKAGES
