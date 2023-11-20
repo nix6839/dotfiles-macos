@@ -12,6 +12,21 @@
 
 shell = 'zsh'
 
+[plugins.powerlevel10k-instant]
+inline = """
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+"""
+
+[plugins.fnm]
+inline = 'eval "$(fnm env --use-on-cd)"'
+
+[plugins.powerlevel10k]
+github = 'romkatv/powerlevel10k'
+[plugins.powerlevel10k.hooks]
+post = '. "$ZDOTDIR/p10k.zsh"'
+
 [plugins.ohmyzsh]
 github = 'ohmyzsh/ohmyzsh'
 use = [
@@ -28,6 +43,7 @@ use = [
 [plugins.zsh-utils]
 github = 'belak/zsh-utils'
 use = ['completion/completion.plugin.zsh', 'history/history.plugin.zsh']
+
 [plugins.zsh-utils.hooks]
 post = 'compstyle prezto'
 
@@ -41,5 +57,5 @@ github = 'zdharma-continuum/fast-syntax-highlighting'
 github = "zsh-users/zsh-autosuggestions"
 use = ["{{ name }}.zsh"]
 
-[plugins.powerlevel10k]
-github = 'romkatv/powerlevel10k'
+[plugins.compinit]
+inline = 'compinit'

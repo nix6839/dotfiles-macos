@@ -6,18 +6,8 @@ export GPG_TTY="$TTY"
 export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
 
 eval "$(sheldon source)"
-. "$ZDOTDIR/p10k.zsh"
 . "$ZDOTDIR/aliases.zsh"
 . "$ZDOTDIR/pnpm.zsh"
-
-eval "$(fnm env --use-on-cd)"
-
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/Library/Application\ Support/zsh/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
 
 update-all() {
   brew update
@@ -44,8 +34,9 @@ rm-network-configs() {
   (
     cd /Library/Preferences/SystemConfiguration &&
       sudo rm -rf com.apple.airport.preferences.plist \
-                  com.apple.wifi.message-tracer.plist \
-                  NetworkInterfaces.plist \
-                  preferences.plist \
-                  com.apple.network.eapolclient.configuration.plist)
+        com.apple.wifi.message-tracer.plist \
+        NetworkInterfaces.plist \
+        preferences.plist \
+        com.apple.network.eapolclient.configuration.plist
+  )
 }
