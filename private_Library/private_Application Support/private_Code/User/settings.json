@@ -139,6 +139,7 @@
     "typescript",
     "typescriptreact"
   ],
+  "rust-analyzer.check.command": "clippy",
   "gopls": {
     "ui.semanticTokens": true
   },
