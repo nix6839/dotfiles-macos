@@ -7,10 +7,11 @@
   "editor.renderFinalNewline": "dimmed",
   "editor.renderControlCharacters": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.insertSpaces": false,
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit"
   },
   "editor.guides.bracketPairs": "active",
   "editor.rulers": [80],
@@ -37,6 +38,8 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.maxTsServerMemory": 8192,
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.enumMemberValues.enabled": true,
@@ -122,6 +125,7 @@
   "vscord.status.buttons.button2.git.idle.enabled": false,
   "vscord.status.buttons.button2.git.inactive.enabled": false,
   "prettier.singleQuote": true,
+  "prettier.useTabs": true,
   "prettier.trailingComma": "all",
   "prettier.documentSelectors": ["**/*.astro"],
   "eslint.validate": [
@@ -254,7 +258,6 @@
   "extensions.ignoreRecommendations": true,
   "editor.defaultColorDecorators": true,
   "inlineFold.disableInDiffEditor": true,
-  "typescript.preferences.importModuleSpecifierEnding": "js",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "editor.codeActionWidget.includeNearbyQuickFixes": true,
   "editor.multiDocumentOccurrencesHighlight": true,
