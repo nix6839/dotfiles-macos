@@ -2,20 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>Label</key>
-  <string>env-sync</string>
-  <key>ProgramArguments</key>
-  <array>
-    <string>zsh</string>
-    <string>-l</string>
-    <string>-c</string>
-    <string>
-      launchctl setenv XDG_CONFIG_HOME $XDG_CONFIG_HOME
-      launchctl setenv XDG_DATA_HOME $XDG_DATA_HOME
-      launchctl setenv XDG_CACHE_HOME $XDG_CACHE_HOME
-    </string>
-  </array>
-  <key>RunAtLoad</key>
-  <true />
+	<key>Label</key>
+	<string>env-sync</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>zsh</string>
+		<string>-l</string>
+		<string>-c</string>
+		<string>
+			launchctl setenv XDG_CONFIG_HOME $XDG_CONFIG_HOME
+			launchctl setenv XDG_DATA_HOME $XDG_DATA_HOME
+			launchctl setenv XDG_CACHE_HOME $XDG_CACHE_HOME
+		</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true />
 </dict>
 </plist>

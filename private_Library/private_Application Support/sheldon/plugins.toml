@@ -15,7 +15,7 @@ shell = 'zsh'
 [plugins.powerlevel10k-instant]
 inline = '''
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+	source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 '''
 
@@ -30,14 +30,14 @@ post = '. "$ZDOTDIR/p10k.zsh"'
 [plugins.ohmyzsh]
 github = 'ohmyzsh/ohmyzsh'
 use = [
-  'lib/clipboard.zsh',
-  'lib/functions.zsh',
-  'lib/key-bindings.zsh',
-  'lib/misc.zsh',
-  'lib/termsupport.zsh',
-  'lib/theme-and-appearance.zsh',
-  'lib/vcs_info.zsh',
-  'plugins/gitfast',
+	'lib/clipboard.zsh',
+	'lib/functions.zsh',
+	'lib/key-bindings.zsh',
+	'lib/misc.zsh',
+	'lib/termsupport.zsh',
+	'lib/theme-and-appearance.zsh',
+	'lib/vcs_info.zsh',
+	'plugins/gitfast',
 ]
 
 [plugins.zsh-utils]

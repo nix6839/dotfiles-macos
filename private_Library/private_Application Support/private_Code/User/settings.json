@@ -1,293 +1,293 @@
 {
-  "editor.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 1.5,
-  "editor.letterSpacing": 0.4,
-  "editor.renderWhitespace": "boundary",
-  "editor.renderFinalNewline": "dimmed",
-  "editor.renderControlCharacters": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.insertSpaces": false,
-  "editor.tabSize": 2,
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
-  },
-  "editor.guides.bracketPairs": "active",
-  "editor.rulers": [80],
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
-  "editor.inlayHints.enabled": "offUnlessPressed",
-  "editor.stickyScroll.enabled": true,
-  "editor.suggest.matchOnWordStartOnly": false,
-  "editor.lineNumbers": "relative",
-  "explorer.compactFolders": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "terminal.integrated.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
-  "terminal.integrated.fontSize": 16,
-  "terminal.external.osxExec": "alacritty",
-  "terminal.integrated.shellIntegration.enabled": false,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "terminal.integrated.scrollback": 10000,
-  "terminal.integrated.showExitAlert": false,
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.settings.editor": "json",
-  "workbench.startupEditor": "newUntitledFile",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.tsserver.maxTsServerMemory": 8192,
-  "typescript.preferences.importModuleSpecifierEnding": "js",
-  "typescript.preferences.preferTypeOnlyAutoImports": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "svelte.enable-ts-plugin": true,
-  "tailwindCSS.classAttributes": [
-    "class",
-    "className",
-    "ngClass",
-    "class:list"
-  ],
-  "tailwindCSS.experimental.classRegex": [
-    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cx\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["/\\*\\s?tw\\s?\\*/\\s?([^;]*);", "'([^']*)'"],
-    ["classList\\.add\\(([^)]*)\\)", "'([^']*)'"],
-    ["classList\\.replace\\(([^)]*)\\)", "'([^']*)'"],
-    ["classList\\.remove\\(([^)]*)\\)", "'([^']*)'"]
-  ],
-  "markdown.preview.fontFamily": "Pretendard",
-  "markdownlint.config": {
-    "MD022": { "lines_below": 0 },
-    "MD032": false
-  },
-  "markdown.validate.enabled": true,
-  "markdown.updateLinksOnFileMove.enabled": "always",
-  "markdown.occurrencesHighlight.enabled": true,
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1,
-    "wix.vscode-import-cost": 1
-  },
-  "jsonColorToken.languages": ["json", "jsonc", "typescript"],
-  "cssrem.languages": [
-    "html",
-    "vue",
-    "css",
-    "postcss",
-    "less",
-    "scss",
-    "sass",
-    "stylus",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
-  "todo-tree.regex.regexCaseSensitive": false,
-  "todo-tree.highlights.defaultHighlight": {
-    "background": "#ad7d02",
-    "foreground": "#000",
-    "iconColour": "#0f0",
-    "icon": "check",
-    "gutterIcon": true
-  },
-  "todo-tree.highlights.customHighlight": {
-    "FIXME": {
-      "background": "#8f0000",
-      "iconColour": "#f00"
-    }
-  },
-  "gitlens.graph.layout": "editor",
-  "gitlens.defaultDateStyle": "absolute",
-  "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm",
-  "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
-  "gitlens.defaultTimeFormat": "HH:mm",
-  "path-intellisense.showHiddenFiles": true,
-  "python.analysis.typeCheckingMode": "basic",
-  "python.venvFolders": [".local/share/python/virtualenvs"],
-  "vscord.app.name": "Code",
-  "vscord.status.details.enabled": false,
-  "vscord.status.state.text.viewing": "Viewing {lang}:{current_line}:{current_column} / {file_size}",
-  "vscord.status.state.text.editing": "Editing {lang}:{current_line}:{current_column} / {file_size}",
-  "vscord.status.state.text.debugging": "Debugging: {lang}:{current_line}:{current_column} / {file_size}",
-  "vscord.status.details.idle.enabled": false,
-  "vscord.behavoiur.prioritizeLanguagesOverExtensions": true,
-  "vscord.status.buttons.button1.git.active.enabled": false,
-  "vscord.status.buttons.button1.git.idle.enabled": false,
-  "vscord.status.buttons.button1.git.inactive.enabled": false,
-  "vscord.status.buttons.button2.git.active.enabled": false,
-  "vscord.status.buttons.button2.git.idle.enabled": false,
-  "vscord.status.buttons.button2.git.inactive.enabled": false,
-  "prettier.singleQuote": true,
-  "prettier.useTabs": true,
-  "prettier.trailingComma": "all",
-  "prettier.documentSelectors": ["**/*.astro"],
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "astro"
-  ],
-  "stylelint.validate": [
-    "css",
-    "less",
-    "postcss",
-    "scss",
-    "typescript",
-    "typescriptreact"
-  ],
-  "rust-analyzer.check.command": "clippy",
-  "gopls": {
-    "ui.semanticTokens": true
-  },
-  "go.lintTool": "golangci-lint",
-  "go.lintOnSave": "workspace",
-  "go.inlayHints.assignVariableTypes": true,
-  "go.inlayHints.compositeLiteralFields": true,
-  "go.inlayHints.compositeLiteralTypes": true,
-  "go.inlayHints.constantValues": true,
-  "go.inlayHints.functionTypeParameters": true,
-  "go.inlayHints.parameterNames": true,
-  "go.inlayHints.rangeVariableTypes": true,
-  "vscode-neovim.neovimExecutablePaths.darwin": "nvim",
-  "shellcheck.executablePath": "shellcheck",
-  "sql-formatter.dialect": "mariadb",
-  "material-icon-theme.files.associations": {
-    "*.css.ts": "../../icons/vanilla-extract",
-    "*.css.tsx": "../../icons/vanilla-extract"
-  },
-  "[elixir]": {
-    "editor.defaultFormatter": "JakeBecker.elixir-ls"
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "[c]": {
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[rust]": {
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
-  "[go]": {
-    "editor.tabSize": 4,
-    "editor.insertSpaces": false,
-    "editor.defaultFormatter": "golang.go"
-  },
-  "[solidity]": {
-    "editor.defaultFormatter": "JuanBlanco.solidity"
-  },
-  "[lua]": {
-    "editor.defaultFormatter": "sumneko.lua"
-  },
-  "[python]": {
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.autopep8"
-  },
-  "[sql]": {
-    "editor.defaultFormatter": "lea21st.vscode-sql-formatter"
-  },
-  "[markdown]": {
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "editor.wordWrap": "on",
-    "editor.quickSuggestions": {
-      "comments": "off",
-      "strings": "off",
-      "other": "off"
-    },
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "[feature]": {
-    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
-  },
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
-  "[dockercompose]": {
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true
-    },
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
-  "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
-  },
-  "[svg]": {
-    "editor.defaultFormatter": "jock.svg"
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[properties]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  // Telemetry
-  "telemetry.telemetryLevel": "error",
-  "gitlens.telemetry.enabled": false,
-  "code-runner.enableAppInsights": false,
-  "redhat.telemetry.enabled": false,
-  "vsixViewer.enableTelemetry": false,
-  // Experimental settings
-  "window.commandCenter": true,
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {
-    "*.tsx": "${capture}.stories.tsx, ${capture}.test.tsx, ${capture}.test.ts",
-    "*.ts": "${capture}.test.ts",
-    "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
-  },
-  "explorer.autoRevealExclude": {
-    "**/node_modules": true,
-    "**/bower_components": true
-  },
-  "code-runner.clearPreviousOutput": true,
-  "extensions.ignoreRecommendations": true,
-  "editor.defaultColorDecorators": true,
-  "inlineFold.disableInDiffEditor": true,
-  "workbench.editor.pinnedTabsOnSeparateRow": true,
-  "editor.codeActionWidget.includeNearbyQuickFixes": true,
-  "editor.multiDocumentOccurrencesHighlight": true,
-  "scm.experimental.showSyncView": true,
-  "debug.toolBarLocation": "commandCenter",
-  "[mdx]": {
-    "editor.defaultFormatter": "unifiedjs.vscode-mdx"
-  },
-  "auto-close-tag.activationOnLanguage": ["mdx"],
+	"editor.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
+	"editor.fontSize": 16,
+	"editor.lineHeight": 1.5,
+	"editor.letterSpacing": 0.4,
+	"editor.renderWhitespace": "boundary",
+	"editor.renderFinalNewline": "dimmed",
+	"editor.renderControlCharacters": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"editor.guides.bracketPairs": "active",
+	"editor.rulers": [80],
+	"editor.linkedEditing": true,
+	"editor.minimap.enabled": false,
+	"editor.inlayHints.enabled": "offUnlessPressed",
+	"editor.stickyScroll.enabled": true,
+	"editor.suggest.matchOnWordStartOnly": false,
+	"editor.lineNumbers": "relative",
+	"explorer.compactFolders": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"terminal.integrated.fontFamily": "JetBrains Mono NL, JetBrainsMono Nerd Font, D2Coding",
+	"terminal.integrated.fontSize": 16,
+	"terminal.external.osxExec": "alacritty",
+	"terminal.integrated.shellIntegration.enabled": false,
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"terminal.integrated.scrollback": 10000,
+	"terminal.integrated.showExitAlert": false,
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.settings.editor": "json",
+	"workbench.startupEditor": "newUntitledFile",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.tsserver.maxTsServerMemory": 8192,
+	"typescript.preferences.importModuleSpecifierEnding": "js",
+	"typescript.preferences.preferTypeOnlyAutoImports": true,
+	"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"typescript.inlayHints.variableTypes.enabled": true,
+	"typescript.inlayHints.enumMemberValues.enabled": true,
+	"typescript.inlayHints.parameterTypes.enabled": true,
+	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"typescript.inlayHints.parameterNames.enabled": "all",
+	"svelte.enable-ts-plugin": true,
+	"tailwindCSS.classAttributes": [
+		"class",
+		"className",
+		"ngClass",
+		"class:list"
+	],
+	"tailwindCSS.experimental.classRegex": [
+		["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["cx\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["/\\*\\s?tw\\s?\\*/\\s?([^;]*);", "'([^']*)'"],
+		["classList\\.add\\(([^)]*)\\)", "'([^']*)'"],
+		["classList\\.replace\\(([^)]*)\\)", "'([^']*)'"],
+		["classList\\.remove\\(([^)]*)\\)", "'([^']*)'"]
+	],
+	"markdown.preview.fontFamily": "Pretendard",
+	"markdownlint.config": {
+		"MD022": { "lines_below": 0 },
+		"MD032": false
+	},
+	"markdown.validate.enabled": true,
+	"markdown.updateLinksOnFileMove.enabled": "always",
+	"markdown.occurrencesHighlight.enabled": true,
+	"extensions.experimental.affinity": {
+		"asvetliakov.vscode-neovim": 1,
+		"wix.vscode-import-cost": 1
+	},
+	"jsonColorToken.languages": ["json", "jsonc", "typescript"],
+	"cssrem.languages": [
+		"html",
+		"vue",
+		"css",
+		"postcss",
+		"less",
+		"scss",
+		"sass",
+		"stylus",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+	"todo-tree.regex.regexCaseSensitive": false,
+	"todo-tree.highlights.defaultHighlight": {
+		"background": "#ad7d02",
+		"foreground": "#000",
+		"iconColour": "#0f0",
+		"icon": "check",
+		"gutterIcon": true
+	},
+	"todo-tree.highlights.customHighlight": {
+		"FIXME": {
+			"background": "#8f0000",
+			"iconColour": "#f00"
+		}
+	},
+	"gitlens.graph.layout": "editor",
+	"gitlens.defaultDateStyle": "absolute",
+	"gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm",
+	"gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+	"gitlens.defaultTimeFormat": "HH:mm",
+	"path-intellisense.showHiddenFiles": true,
+	"python.analysis.typeCheckingMode": "basic",
+	"python.venvFolders": [".local/share/python/virtualenvs"],
+	"vscord.app.name": "Code",
+	"vscord.status.details.enabled": false,
+	"vscord.status.state.text.viewing": "Viewing {lang}:{current_line}:{current_column} / {file_size}",
+	"vscord.status.state.text.editing": "Editing {lang}:{current_line}:{current_column} / {file_size}",
+	"vscord.status.state.text.debugging": "Debugging: {lang}:{current_line}:{current_column} / {file_size}",
+	"vscord.status.details.idle.enabled": false,
+	"vscord.behavoiur.prioritizeLanguagesOverExtensions": true,
+	"vscord.status.buttons.button1.git.active.enabled": false,
+	"vscord.status.buttons.button1.git.idle.enabled": false,
+	"vscord.status.buttons.button1.git.inactive.enabled": false,
+	"vscord.status.buttons.button2.git.active.enabled": false,
+	"vscord.status.buttons.button2.git.idle.enabled": false,
+	"vscord.status.buttons.button2.git.inactive.enabled": false,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.trailingComma": "all",
+	"prettier.documentSelectors": ["**/*.astro"],
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"astro"
+	],
+	"stylelint.validate": [
+		"css",
+		"less",
+		"postcss",
+		"scss",
+		"typescript",
+		"typescriptreact"
+	],
+	"rust-analyzer.check.command": "clippy",
+	"gopls": {
+		"ui.semanticTokens": true
+	},
+	"go.lintTool": "golangci-lint",
+	"go.lintOnSave": "workspace",
+	"go.inlayHints.assignVariableTypes": true,
+	"go.inlayHints.compositeLiteralFields": true,
+	"go.inlayHints.compositeLiteralTypes": true,
+	"go.inlayHints.constantValues": true,
+	"go.inlayHints.functionTypeParameters": true,
+	"go.inlayHints.parameterNames": true,
+	"go.inlayHints.rangeVariableTypes": true,
+	"vscode-neovim.neovimExecutablePaths.darwin": "nvim",
+	"shellcheck.executablePath": "shellcheck",
+	"sql-formatter.dialect": "mariadb",
+	"material-icon-theme.files.associations": {
+		"*.css.ts": "../../icons/vanilla-extract",
+		"*.css.tsx": "../../icons/vanilla-extract"
+	},
+	"[elixir]": {
+		"editor.defaultFormatter": "JakeBecker.elixir-ls"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[c]": {
+		"editor.tabSize": 4,
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[rust]": {
+		"editor.tabSize": 4,
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+	"[go]": {
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false,
+		"editor.defaultFormatter": "golang.go"
+	},
+	"[solidity]": {
+		"editor.defaultFormatter": "JuanBlanco.solidity"
+	},
+	"[lua]": {
+		"editor.defaultFormatter": "sumneko.lua"
+	},
+	"[python]": {
+		"editor.tabSize": 4,
+		"editor.defaultFormatter": "ms-python.autopep8"
+	},
+	"[sql]": {
+		"editor.defaultFormatter": "lea21st.vscode-sql-formatter"
+	},
+	"[markdown]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		},
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"[feature]": {
+		"editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+	},
+	"[dockerfile]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"[dockercompose]": {
+		"editor.quickSuggestions": {
+			"other": true,
+			"comments": false,
+			"strings": true
+		},
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"[toml]": {
+		"editor.defaultFormatter": "tamasfe.even-better-toml"
+	},
+	"[svg]": {
+		"editor.defaultFormatter": "jock.svg"
+	},
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[properties]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[ignore]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	// Telemetry
+	"telemetry.telemetryLevel": "error",
+	"gitlens.telemetry.enabled": false,
+	"code-runner.enableAppInsights": false,
+	"redhat.telemetry.enabled": false,
+	"vsixViewer.enableTelemetry": false,
+	// Experimental settings
+	"window.commandCenter": true,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"*.tsx": "${capture}.stories.tsx, ${capture}.test.tsx, ${capture}.test.ts",
+		"*.ts": "${capture}.test.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
+	},
+	"explorer.autoRevealExclude": {
+		"**/node_modules": true,
+		"**/bower_components": true
+	},
+	"code-runner.clearPreviousOutput": true,
+	"extensions.ignoreRecommendations": true,
+	"editor.defaultColorDecorators": true,
+	"inlineFold.disableInDiffEditor": true,
+	"workbench.editor.pinnedTabsOnSeparateRow": true,
+	"editor.codeActionWidget.includeNearbyQuickFixes": true,
+	"editor.multiDocumentOccurrencesHighlight": true,
+	"scm.experimental.showSyncView": true,
+	"debug.toolBarLocation": "commandCenter",
+	"[mdx]": {
+		"editor.defaultFormatter": "unifiedjs.vscode-mdx"
+	},
+	"auto-close-tag.activationOnLanguage": ["mdx"],
 
-  // Template settings
-  // "vscord.status.buttons.button1.active.enabled": true,
-  // "vscord.status.buttons.button1.active.label": "Check Out Developing Site",
-  // "vscord.status.buttons.button1.active.url": "https://yeongwoo.dev",
-  // "vscord.status.buttons.button1.idle.enabled": true,
-  // "vscord.status.buttons.button1.idle.label": "Check Out Developing Site",
-  // "vscord.status.buttons.button1.idle.url": "https://yeongwoo.dev",
-  // "vscord.status.buttons.button1.inactive.enabled": true,
-  // "vscord.status.buttons.button1.inactive.label": "Check Out Developing Site",
-  // "vscord.status.buttons.button1.inactive.url": "https://yeongwoo.dev",
-  // "vscord.status.buttons.button2.active.enabled": true,
-  // "vscord.status.buttons.button2.active.label": "View Repository",
-  // "vscord.status.buttons.button2.active.url": "https://github.com/nix6839/",
-  // "vscord.status.buttons.button2.idle.enabled": true,
-  // "vscord.status.buttons.button2.idle.label": "View Repository",
-  // "vscord.status.buttons.button2.idle.url": "https://github.com/nix6839/",
-  // "vscord.status.buttons.button2.inactive.enabled": true,
-  // "vscord.status.buttons.button2.inactive.label": "View Repository",
-  // "vscord.status.buttons.button2.inactive.url": "https://github.com/nix6839/",
+	// Template settings
+	// "vscord.status.buttons.button1.active.enabled": true,
+	// "vscord.status.buttons.button1.active.label": "Check Out Developing Site",
+	// "vscord.status.buttons.button1.active.url": "https://yeongwoo.dev",
+	// "vscord.status.buttons.button1.idle.enabled": true,
+	// "vscord.status.buttons.button1.idle.label": "Check Out Developing Site",
+	// "vscord.status.buttons.button1.idle.url": "https://yeongwoo.dev",
+	// "vscord.status.buttons.button1.inactive.enabled": true,
+	// "vscord.status.buttons.button1.inactive.label": "Check Out Developing Site",
+	// "vscord.status.buttons.button1.inactive.url": "https://yeongwoo.dev",
+	// "vscord.status.buttons.button2.active.enabled": true,
+	// "vscord.status.buttons.button2.active.label": "View Repository",
+	// "vscord.status.buttons.button2.active.url": "https://github.com/nix6839/",
+	// "vscord.status.buttons.button2.idle.enabled": true,
+	// "vscord.status.buttons.button2.idle.label": "View Repository",
+	// "vscord.status.buttons.button2.idle.url": "https://github.com/nix6839/",
+	// "vscord.status.buttons.button2.inactive.enabled": true,
+	// "vscord.status.buttons.button2.inactive.label": "View Repository",
+	// "vscord.status.buttons.button2.inactive.url": "https://github.com/nix6839/",
 
-  // Dynamic settings
-  "terminal.integrated.env.osx": {}
+	// Dynamic settings
+	"terminal.integrated.env.osx": {}
 }
