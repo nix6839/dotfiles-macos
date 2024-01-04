@@ -2,6 +2,11 @@
 	"$schema": "https://schema.linearmouse.app/0.9.5",
 	"schemes": [
 		{
+			"if": {
+				"device": {
+					"category": "mouse"
+				}
+			},
 			"scrolling": {
 				"acceleration": 1,
 				"reverse": true,
