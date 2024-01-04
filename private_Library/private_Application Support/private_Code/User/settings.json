@@ -31,11 +31,13 @@
 	"terminal.integrated.scrollback": 10000,
 	"terminal.integrated.showExitAlert": false,
 	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.settings.editor": "json",
 	"workbench.startupEditor": "newUntitledFile",
 	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.preferences.importModuleSpecifierEnding": "js",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"typescript.tsserver.maxTsServerMemory": 8192,
 	"typescript.preferences.importModuleSpecifierEnding": "js",
@@ -111,6 +113,7 @@
 	"path-intellisense.showHiddenFiles": true,
 	"python.analysis.typeCheckingMode": "basic",
 	"python.venvFolders": [".local/share/python/virtualenvs"],
+	"vscord.enabled": false,
 	"vscord.app.name": "Code",
 	"vscord.status.details.enabled": false,
 	"vscord.status.state.text.viewing": "Viewing {lang}:{current_line}:{current_column} / {file_size}",
@@ -128,6 +131,8 @@
 	"prettier.useTabs": true,
 	"prettier.trailingComma": "all",
 	"prettier.documentSelectors": ["**/*.astro"],
+	"shellformat.flag": "-i=0",
+	"evenBetterToml.formatter.indentString": "\t",
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
@@ -179,7 +184,6 @@
 	},
 	"[go]": {
 		"editor.tabSize": 4,
-		"editor.insertSpaces": false,
 		"editor.defaultFormatter": "golang.go"
 	},
 	"[solidity]": {
@@ -198,7 +202,7 @@
 	"[markdown]": {
 		"editor.unicodeHighlight.ambiguousCharacters": false,
 		"editor.unicodeHighlight.invisibleCharacters": false,
-		"editor.wordWrap": "on",
+		"editor.wordWrap": "off",
 		"editor.quickSuggestions": {
 			"comments": "off",
 			"strings": "off",
@@ -260,15 +264,16 @@
 	"inlineFold.disableInDiffEditor": true,
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"editor.codeActionWidget.includeNearbyQuickFixes": true,
-	"editor.multiDocumentOccurrencesHighlight": true,
-	"scm.experimental.showSyncView": true,
+	"editor.occurrencesHighlight": "multiFile",
 	"debug.toolBarLocation": "commandCenter",
 	"[mdx]": {
 		"editor.defaultFormatter": "unifiedjs.vscode-mdx"
 	},
 	"auto-close-tag.activationOnLanguage": ["mdx"],
+	"crates.listPreReleases": true,
 
 	// Template settings
+	// "vscord.enabled": true,
 	// "vscord.status.buttons.button1.active.enabled": true,
 	// "vscord.status.buttons.button1.active.label": "Check Out Developing Site",
 	// "vscord.status.buttons.button1.active.url": "https://yeongwoo.dev",
