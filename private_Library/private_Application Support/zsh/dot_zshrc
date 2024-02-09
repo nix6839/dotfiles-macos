@@ -18,7 +18,7 @@ update-all() {
   tldr --update
   nvim +PlugUpgrade +PlugInstall +qall
 
-  poetry self update
+  pipx upgrade poetry
 
   rustup update
   cargo install-update -a

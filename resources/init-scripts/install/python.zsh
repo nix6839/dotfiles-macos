@@ -3,4 +3,4 @@
 # Why comment this line? https://stackoverflow.com/a/75722775
 # TODO: find better solution
 # pip3.12 install --upgrade pip && pip3.12 install autopep8 pylint &&
-curl -sSL https://install.python-poetry.org | python3.12 -
+pipx install poetry
