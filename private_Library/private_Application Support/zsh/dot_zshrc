@@ -10,33 +10,33 @@ eval "$(sheldon source)"
 . "$ZDOTDIR/pnpm.zsh"
 
 update-all() {
-  brew update
-  brew upgrade
-  mas upgrade
+	brew update
+	brew upgrade
+	mas upgrade
 
-  sheldon lock --update
-  tldr --update
-  nvim +PlugUpgrade +PlugInstall +qall
+	sheldon lock --update
+	tldr --update
+	nvim +PlugUpgrade +PlugInstall +qall
 
-  pipx upgrade poetry
+	pipx upgrade poetry
 
-  rustup update
-  cargo install-update -a
+	rustup update
+	cargo install-update -a
 
-  corepack install -g pnpm@latest
-  ncu --packageFile "$PNPM_HOME/global/5/package.json" -u
-  pnpm i -g
-  pnpm up -g
-  ncu -g
+	corepack install -g pnpm@latest
+	ncu --packageFile "$PNPM_HOME/global/5/package.json" -u
+	pnpm i -g
+	pnpm up -g
+	ncu -g
 }
 
 rm-network-configs() {
-  (
-    cd /Library/Preferences/SystemConfiguration &&
-      sudo rm -rf com.apple.airport.preferences.plist \
-        com.apple.wifi.message-tracer.plist \
-        NetworkInterfaces.plist \
-        preferences.plist \
-        com.apple.network.eapolclient.configuration.plist
-  )
+	(
+		cd /Library/Preferences/SystemConfiguration &&
+			sudo rm -rf com.apple.airport.preferences.plist \
+				com.apple.wifi.message-tracer.plist \
+				NetworkInterfaces.plist \
+				preferences.plist \
+				com.apple.network.eapolclient.configuration.plist
+	)
 }
