@@ -261,6 +261,7 @@
 	"code-runner.clearPreviousOutput": true,
 	"extensions.ignoreRecommendations": true,
 	"editor.defaultColorDecorators": true,
+	"inlineFold.autoFold": false,
 	"inlineFold.disableInDiffEditor": true,
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"editor.codeActionWidget.includeNearbyQuickFixes": true,
