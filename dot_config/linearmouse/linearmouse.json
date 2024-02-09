@@ -13,6 +13,25 @@
 				"speed": 0,
 				"distance": 3
 			}
+		},
+		{
+			"if": {
+				"device": {
+					"category": "mouse"
+				},
+				"app": "com.microsoft.VSCode"
+			},
+			"scrolling": {
+				"distance": {
+					"vertical": "36px"
+				},
+				"acceleration": {
+					"vertical": 1
+				},
+				"speed": {
+					"vertical": 0
+				}
+			}
 		}
 	]
 }
