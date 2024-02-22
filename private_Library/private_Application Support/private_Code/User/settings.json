@@ -27,7 +27,7 @@
 	"terminal.integrated.fontSize": 16,
 	"terminal.external.osxExec": "alacritty",
 	"terminal.integrated.shellIntegration.enabled": false,
-	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"terminal.integrated.enableMultiLinePasteWarning": "auto",
 	"terminal.integrated.scrollback": 10000,
 	"terminal.integrated.showExitAlert": false,
 	"files.insertFinalNewline": true,
@@ -112,7 +112,7 @@
 	"gitlens.defaultTimeFormat": "HH:mm",
 	"path-intellisense.showHiddenFiles": true,
 	"python.analysis.typeCheckingMode": "basic",
-	"python.venvFolders": [".local/share/python/virtualenvs"],
+	"ruff.format.args": ["--config", "format.indent-style='tab'"],
 	"vscord.enabled": false,
 	"vscord.app.name": "Code",
 	"vscord.status.details.enabled": false,
@@ -194,7 +194,7 @@
 	},
 	"[python]": {
 		"editor.tabSize": 4,
-		"editor.defaultFormatter": "ms-python.autopep8"
+		"editor.defaultFormatter": "charliermarsh.ruff"
 	},
 	"[sql]": {
 		"editor.defaultFormatter": "lea21st.vscode-sql-formatter"
