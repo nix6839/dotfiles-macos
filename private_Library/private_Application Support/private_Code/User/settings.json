@@ -35,7 +35,7 @@
 	"files.trimTrailingWhitespace": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.settings.editor": "json",
-	"workbench.startupEditor": "newUntitledFile",
+	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"javascript.preferences.importModuleSpecifierEnding": "js",
 	"typescript.updateImportsOnFileMove.enabled": "always",
