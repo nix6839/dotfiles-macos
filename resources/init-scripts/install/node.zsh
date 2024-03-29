@@ -5,6 +5,7 @@ NODE_PACKAGES=(
 	'create-next-app' 'create-astro' 'create-vite' 'create-svelte'
 	'create-nx-workspace' 'nx' 'create-turbo' '@nestjs/cli' 'nodemon'
 	'typescript' 'ts-node' 'npm-check-updates' 'sort-package-json'
+	'@arethetypeswrong/cli'
 )
 
 eval "$(fnm env --use-on-cd)" && fnm install 18 --corepack-enabled &&

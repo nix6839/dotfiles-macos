@@ -126,14 +126,7 @@
 		"typescriptreact",
 		"astro"
 	],
-	"stylelint.validate": [
-		"css",
-		"less",
-		"postcss",
-		"scss",
-		"typescript",
-		"typescriptreact"
-	],
+	"stylelint.validate": ["css", "postcss", "scss"],
 	"rust-analyzer.check.command": "clippy",
 	"gopls": {
 		"ui.semanticTokens": true
@@ -149,7 +142,7 @@
 	"go.inlayHints.rangeVariableTypes": true,
 	"vscode-neovim.neovimExecutablePaths.darwin": "nvim",
 	"shellcheck.executablePath": "shellcheck",
-	"sql-formatter.dialect": "mariadb",
+	"sql-formatter.dialect": "postgresql",
 	"material-icon-theme.files.associations": {
 		"*.css.ts": "../../icons/vanilla-extract",
 		"*.css.tsx": "../../icons/vanilla-extract"
