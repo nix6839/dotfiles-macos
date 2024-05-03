@@ -90,7 +90,7 @@
 		"typescript",
 		"typescriptreact"
 	],
-	"todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+	"todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|--|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
 	"todo-tree.regex.regexCaseSensitive": false,
 	"todo-tree.highlights.defaultHighlight": {
 		"background": "#ad7d02",

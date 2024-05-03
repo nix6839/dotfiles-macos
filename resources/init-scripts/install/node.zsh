@@ -4,7 +4,7 @@ declare -a NODE_PACKAGES
 NODE_PACKAGES=(
 	'create-next-app' 'create-astro' 'create-vite' 'create-svelte'
 	'create-nx-workspace' 'nx' 'create-turbo' '@nestjs/cli' 'nodemon'
-	'typescript' 'ts-node' 'npm-check-updates' 'sort-package-json'
+	'tsx' 'npm-check-updates' 'sort-package-json' 'publint'
 	'@arethetypeswrong/cli'
 )
 

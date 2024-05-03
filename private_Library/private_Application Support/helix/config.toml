@@ -3,9 +3,13 @@ theme = "dark_plus"
 [editor]
 shell = ["zsh", "-c"]
 line-number = "relative"
+cursorline = true
 idle-timeout = 0
 completion-trigger-len = 1
+completion-replace = true
 rulers = [80]
+default-line-ending = "lf"
+popup-border = "all"
 
 [editor.statusline]
 mode = { normal = "NORMAL", insert = "INSERT", select = "SELECT" }
