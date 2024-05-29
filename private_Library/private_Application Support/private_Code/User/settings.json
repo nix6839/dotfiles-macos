@@ -251,6 +251,7 @@
 	},
 	"auto-close-tag.activationOnLanguage": ["mdx"],
 	"crates.listPreReleases": true,
+	"vscord.app.privacyMode.enable": true,
 
 	// Dynamic settings
 	"terminal.integrated.env.osx": {}
