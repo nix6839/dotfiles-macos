@@ -1,5 +1,5 @@
 {
-	"$schema": "https://schema.linearmouse.app/0.9.5",
+	"$schema": "https://schema.linearmouse.app/0.10.0",
 	"schemes": [
 		{
 			"if": {
@@ -8,25 +8,25 @@
 				}
 			},
 			"scrolling": {
-				"acceleration": 1,
 				"reverse": true,
-				"speed": 0,
-				"distance": 3
+				"acceleration": 1,
+				"distance": 3,
+				"speed": 0
 			}
 		},
 		{
 			"if": {
+				"app": "com.microsoft.VSCode",
 				"device": {
 					"category": "mouse"
-				},
-				"app": "com.microsoft.VSCode"
+				}
 			},
 			"scrolling": {
-				"distance": {
-					"vertical": "36px"
-				},
 				"acceleration": {
 					"vertical": 1
+				},
+				"distance": {
+					"vertical": "36px"
 				},
 				"speed": {
 					"vertical": 0

@@ -112,7 +112,12 @@
 	"gitlens.defaultTimeFormat": "HH:mm",
 	"path-intellisense.showHiddenFiles": true,
 	"python.analysis.typeCheckingMode": "basic",
-	"ruff.format.args": ["--config", "format.indent-style='tab'"],
+	"ruff.format.args": [
+		"--config",
+		"format.indent-style='tab'",
+		"format.quote-style='single'",
+		"format.line-ending='lf'"
+	],
 	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
 	"prettier.trailingComma": "all",
@@ -128,6 +133,7 @@
 	],
 	"stylelint.validate": ["css", "postcss", "scss"],
 	"rust-analyzer.check.command": "clippy",
+	"rust-analyzer.check.extraArgs": ["--", "-W", "clippy::pedantic"],
 	"gopls": {
 		"ui.semanticTokens": true
 	},
@@ -145,7 +151,9 @@
 	"sql-formatter.dialect": "postgresql",
 	"material-icon-theme.files.associations": {
 		"*.css.ts": "../../icons/vanilla-extract",
-		"*.css.tsx": "../../icons/vanilla-extract"
+		"*.css.tsx": "../../icons/vanilla-extract",
+		"justfile": "../../icons/just",
+		"Justfile": "../../icons/just"
 	},
 	"[elixir]": {
 		"editor.defaultFormatter": "JakeBecker.elixir-ls"
@@ -228,8 +236,8 @@
 	"window.commandCenter": true,
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"*.tsx": "${capture}.stories.tsx, ${capture}.test.tsx, ${capture}.test.ts",
-		"*.ts": "${capture}.test.ts",
+		"*.tsx": "${capture}.stories.tsx, ${capture}.test.tsx, ${capture}.spec.tsx, ${capture}.test.ts",
+		"*.ts": "${capture}.test.ts, ${capture}.spec.ts",
 		"tsconfig.json": "tsconfig.*.json",
 		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
 	},

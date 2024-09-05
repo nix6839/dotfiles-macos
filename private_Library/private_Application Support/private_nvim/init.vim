@@ -13,10 +13,11 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'editorconfig/editorconfig-vim', Cond(!exists('g:vscode'))
 call plug#end()
 
+let mapleader = ";"
+vnoremap <leader>y "+y
+nnoremap <leader>y "+y
+
 if exists('g:vscode')
-	let mapleader = ";"
-	vnoremap <leader>y "+y
-	nnoremap <leader>y "+y
 else
 	" Vim options
 	syntax on       " Turn on syntax highlighting

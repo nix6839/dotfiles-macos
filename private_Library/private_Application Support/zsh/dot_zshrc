@@ -8,6 +8,7 @@ export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
 eval "$(sheldon source)"
 . "$ZDOTDIR/aliases.zsh"
 . "$ZDOTDIR/pnpm.zsh"
+. "$RYE_HOME/env"
 
 update-all() {
 	brew update
@@ -18,6 +19,7 @@ update-all() {
 	tldr --update
 	nvim +PlugUpgrade +PlugInstall +qall
 
+	rye self update
 	pipx upgrade poetry
 
 	rustup update
@@ -30,6 +32,14 @@ update-all() {
 	ncu -g
 }
 
+write-completions() {
+	local completions_dir="$ZDOTDIR/completions"
+	rustup completions zsh rustup >"$completions_dir/_rustup"
+	rustup completions zsh cargo >"$completions_dir/_cargo"
+	rye self completion -s zsh >"$completions_dir/_rye"
+	poetry completions zsh >"$completions_dir/_poetry"
+}
+
 dropbox-ignore() {
 	xattr -w com.dropbox.ignored 1 "$1"
 	xattr -w 'com.apple.fileprovider.ignore#P' 1 "$1"
@@ -38,15 +48,4 @@ dropbox-ignore() {
 dropbox-unignore() {
 	xattr -d com.dropbox.ignored "$1"
 	xattr -d 'com.apple.fileprovider.ignore#P' "$1"
-}
-
-rm-network-configs() {
-	(
-		cd /Library/Preferences/SystemConfiguration &&
-			sudo rm -rf com.apple.airport.preferences.plist \
-				com.apple.wifi.message-tracer.plist \
-				NetworkInterfaces.plist \
-				preferences.plist \
-				com.apple.network.eapolclient.configuration.plist
-	)
 }
